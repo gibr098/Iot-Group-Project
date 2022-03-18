@@ -1,2 +1,2 @@
-# Iot-Group-Project/SBIM
-A Smart Building Interactive Map
+# Iot-Group-Project
+A Smart Building Interactive Map (SBIM ?)
