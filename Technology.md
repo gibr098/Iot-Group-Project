@@ -1,6 +1,6 @@
 # Technology
 
-![structure](Structure.jpg)
+![structure](SBIM_structure.png)
 
 Our high level design is composed of:
 
