@@ -4,3 +4,4 @@ and hardware components that make up the product/service, a description of the m
 how these components interact (e.g., network protocols, APIs used), a network architecture clearly depicting the IoT elements, Edge components, 
 Cloud components, End-user components.
 
+![structure](Structure.jpg)
