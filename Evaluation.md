@@ -7,3 +7,4 @@ The document should clearly address the following aspects:
 ** The evaluation of the performance of the network technologies.
 ** The evaluation of the performance of the embedded devices in terms of power consumption and energy efficiency.
 ** The evaluation of the response time from an end-user point of view.
+
