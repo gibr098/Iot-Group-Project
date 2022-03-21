@@ -42,5 +42,5 @@ A protocol to communicate with one or more HTTP or HTTPS endpoint. Similar to MQ
 ## HTTP ENDPOINT
 A communication channel that will be able to request data from the Cloud through the elaboration of the GET requests done by the User
 
-## MOBILE APP
-A simple and intuitive mobile app that will show the information of the status of the building by requesting them through the endpoint. The UI will be composed of a map, where all of the infos will be showed
+## WEB PAGE INTERFACE
+A simple and intuitive web page that will show the information of the status of the building by requesting them through the endpoint. The UI will be composed of a map, where all of the infos will be showed
