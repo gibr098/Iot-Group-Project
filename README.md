@@ -9,5 +9,6 @@ Our project is an interactive map of a smart building thanks to which people fre
 
 ## Documents
 - [Concept](Concept.md)
+- [Technology](Technology/Technology.md)
 - [Evaluation](Evaluation.md)
 
