@@ -8,4 +8,4 @@ Our project is an interactive map of a smart building thanks to which people fre
 - [Rishiraj Singh Salam]()
 
 ## Documents
-- [evaluation](Iot-Group-Project/evaluation.md)
+- [evaluation](files/Iot-Group-Project/evaluation.md)
