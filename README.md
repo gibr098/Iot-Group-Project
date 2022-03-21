@@ -8,4 +8,6 @@ Our project is an interactive map of a smart building thanks to which people fre
 - [Rishiraj Singh Salam]()
 
 ## Documents
-- [evaluation](Evaluation.md)
+- [Concept](Concept.md)
+- [Evaluation](Evaluation.md)
+
