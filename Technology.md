@@ -43,7 +43,6 @@ All the sensors are chosen according to the suitability of the project.
 * Light Sensor
 * Pressure Sensor
 
-
 ### ACTUATORS
 
 * LED - Lights
