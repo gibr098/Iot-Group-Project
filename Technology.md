@@ -1,22 +1,22 @@
 # Technology
 
-## Main Core Parts
+### Main Core Parts
 * Environmental Monitoring System
 * Ground Server
 * Dashboard
 
-## Environmental monitoring System
+### Environmental monitoring System
 
 **Environmental Monitoring System** is the main component of the project. The main purpose of this system is to collect environmantal data from the sensors placed in feasible location of the building and send it through the **Ground Server** to the cloud server and then take actions by sending commands to suitable actuators.
 
-## Ground Server
+### Ground Server
 
 **Ground Server** acts as a local server that aggregates streams of sensor data from
 multiple **Environmental Monitoring Systems** and sends it to the **AWS cloud server** via **MQTT** for
 further data processing. Each Environmental Monitoring System will have a unique id for
 identification.
 
-## Dashboard
+### Dashboard
 
 It is the highest level client side component of the project. The **Dashboard** would be
 hosted on remote server **(AWS)** with **Node.js** for the server side backend runtime
@@ -25,11 +25,11 @@ written using **HTML, Bootstrap, Javascript and EJS View Engine**. All the data
 collected from the sensors would be stored in **AWS Dynamo DB**. And finally the
 processed data is displayed on **Dashboard** (or possibly on a **mobile app**).
 
-### IoT Architecture
+## IoT Architecture
 
 ![IotArchitecture](https://user-images.githubusercontent.com/30042823/159380556-12a033e7-b0a5-4973-b486-69c106e3e95b.png)
 
-### System Architecture
+## System Architecture
 
 ![system_architecture](https://user-images.githubusercontent.com/30042823/159380633-c53035a8-05a2-46e0-ab19-4239ae35ea9c.png)
 
@@ -54,8 +54,6 @@ All the sensors are chosen according to the suitability of the project.
 * Wifi Module (ESP-01S ESP8266) - Under Consideration 
 * LoRaWan - Under Consideration 
 
-The board we intend to use is the [Nucleo-64 STM32F401](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
-
 
 ## MESSAGE BROKER
 
@@ -69,7 +67,7 @@ method for data preprocessing. Lightweight and is suitable to low bandwidth exch
 
 ## DEVELPOMENT BOARD
 
-### STM32 Nucleo F401RE
+### [STM32 Nucleo-64 STM32F401RE](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
 Used as master node to house the sensors
 
 * Microcontroller: STM32F401RET6 (32-bit)
