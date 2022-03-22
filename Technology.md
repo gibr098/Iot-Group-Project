@@ -1,6 +1,6 @@
 # Technology
 
-## Main Core Parts
+### Main Core Parts
 * Environmental Monitoring System
 * Ground Server
 * Dashboard
@@ -54,7 +54,6 @@ All the sensors are chosen according to the suitability of the project.
 * Wifi Module (ESP-01S ESP8266) - Under Consideration 
 * LoRaWan - Under Consideration 
 
-The board we intend to use is the [Nucleo-64 STM32F401](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
 
 
 ## MESSAGE BROKER
@@ -69,7 +68,7 @@ method for data preprocessing. Lightweight and is suitable to low bandwidth exch
 
 ### DEVELPOMENT BOARD
 
-### STM32 Nucleo F401RE
+### [STM32 Nucleo-64 STM32F401RE](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
 Used as master node to house the sensors
 
 * Microcontroller: STM32F401RET6 (32-bit)
