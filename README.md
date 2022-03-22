@@ -9,6 +9,6 @@ SBIM is an interactive map of a smart building that allows people frequently vis
 
 ## Documents
 - [Concept](Concept/Concept.md)
-- [Technology](Technology/Technology.md)
+- [Technology](Technology.md)
 - [Evaluation](Evaluation.md)
 
