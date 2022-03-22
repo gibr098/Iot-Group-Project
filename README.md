@@ -8,7 +8,7 @@ SBIM is an interactive map of a smart building that allows people frequently vis
 - [Rishiraj Singh Salam](https://www.linkedin.com/in/rishiraj-salam-78ba32151/)
 
 ## Documents
-- [Concept](Concept.md)
+- [Concept](Concept/Concept.md)
 - [Technology](Technology/Technology.md)
 - [Evaluation](Evaluation.md)
 
