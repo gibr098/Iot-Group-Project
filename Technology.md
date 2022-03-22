@@ -39,20 +39,20 @@ All the data will be presented in visual form through a web based dashboard whic
 ### SENSORS
 All the sensors are chosen according to the suitability of the project.
 
-### Sound Sensor (& Motion Sensor - under consideration)
-### Light Sensor
-### Pressure Sensor
+* Sound Sensor (& Motion Sensor - under consideration)
+* Light Sensor
+* Pressure Sensor
 
 
 ### ACTUATORS
 
-### LED - Lights
+* LED - Lights
 
 
 ### COMMUNICATION
 
-### Wifi Module (ESP-01S ESP8266) - Under Consideration 
-### LoRaWan - Under Consideration 
+* Wifi Module (ESP-01S ESP8266) - Under Consideration 
+* LoRaWan - Under Consideration 
 
 The board we intend to use is the [Nucleo-64 STM32F401](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
 
@@ -95,7 +95,7 @@ Used as master node to house the sensors
 * Internal Crystal Oscillator: Yes, 16MHz
 * On Board Debugger: Yes, Serial Wire and JTAG
 
-### CLOUD
+## CLOUD
 
 ### Amazon Web Services
 [AWS](https://aws.amazon.com/it/) is an extremely powerful cloud system, it offers different functionalities. One of these is a communcation system with MQTT, supporting both level 0 and level 1 QoS (quality of service)
@@ -107,7 +107,7 @@ A database system, able to store all the information coming from the MQTT broker
 A protocol to communicate with one or more HTTP or HTTPS endpoint. Similar to MQTT, this is also publish/subscribe based.
 
 
-### DISTRIBUTION
+## DISTRIBUTION
 
 ### HTTP ENDPOINT
 A communication channel that will be able to request data from the Cloud through the elaboration of the GET requests done by the User
