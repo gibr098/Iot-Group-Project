@@ -8,10 +8,3 @@ Entering into the building, a person can easily access a web page in which he wi
 The way in which the application is concerned, make it be also a good tool to collect data about the the social frequentation of the building and to monitor the crowding level of its rooms.
 
 
-## User stories
-
-![Mark](Mark.png)
-
-![Elisa](Elisa.png)
-
-![Carl](Carl.png)
