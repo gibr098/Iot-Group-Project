@@ -34,15 +34,15 @@ int main(void){
        //loop
        while(1){
         //trigger a measurement and returns the distance
-        //printf("Distance get: %d\n", srf04_get_distance(&dev));
+        printf("Distance get: %d cm\n", srf04_get_distance(&dev)/10);
 
         //trigger measurement
-        srf04_trigger(&dev);
+        //srf04_trigger(&dev);
 
-        xtimer_sleep(1);
+        xtimer_sleep(0.7);
 
         //returns time of flight in ms (should not be invoked within 50ms after triggering)
-        printf("Distance read: %d\n", srf04_read(&dev));
+        //printf("Distance read: %d cm\n ", srf04_read(&dev)/58);
        }
 
 
