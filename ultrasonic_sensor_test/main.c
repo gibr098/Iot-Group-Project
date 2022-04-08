@@ -14,8 +14,8 @@ int main(void){
     //SRF04
     //params inizialization
     srf04_params_t my_params;
-    my_params.trigger = GPIO_PIN(PORT_B, 5);
-    my_params.echo = GPIO_PIN(PORT_A, 8);
+    my_params.trigger = GPIO_PIN(PORT_B, 5); //trigger-> D4
+    my_params.echo = GPIO_PIN(PORT_A, 8); //echo-> D7
     
 
     srf04_t dev;
@@ -23,7 +23,7 @@ int main(void){
     if (srf04_init(&dev, &my_params) == 0) {
         printf("SRF04 sensor connected\n");
         }
-        else {
+    else{
         printf("Failed to connect to SRF04 sensor, GPIO init failure\n");
         return 1;
         }
@@ -39,7 +39,7 @@ int main(void){
         //trigger measurement
         //srf04_trigger(&dev);
 
-        xtimer_sleep(0.7);
+        xtimer_sleep(1.0);
 
         //returns time of flight in ms (should not be invoked within 50ms after triggering)
         //printf("Distance read: %d cm\n ", srf04_read(&dev)/58);

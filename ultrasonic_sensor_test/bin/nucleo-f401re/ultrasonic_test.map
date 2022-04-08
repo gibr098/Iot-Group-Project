@@ -8402,446 +8402,446 @@ END GROUP
                 0x0000000008000040                vector_cpu
  *(.text .text.* .gnu.linkonce.t.*)
  .text.startup.main
-                0x0000000008000194       0x64 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
+                0x0000000008000194       0x6c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
                 0x0000000008000194                main
  .text.auto_init
-                0x00000000080001f8        0x4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
-                0x00000000080001f8                auto_init
+                0x0000000008000200        0x4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
+                0x0000000008000200                auto_init
  .text.board_init
-                0x00000000080001fc        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
-                0x00000000080001fc                board_init
- *fill*         0x00000000080001fe        0x2 
+                0x0000000008000204        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
+                0x0000000008000204                board_init
+ *fill*         0x0000000008000206        0x2 
  .text._assert_panic
-                0x0000000008000200       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
-                0x0000000008000200                _assert_panic
+                0x0000000008000208       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
+                0x0000000008000208                _assert_panic
  .text.main_trampoline
-                0x0000000008000210       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+                0x0000000008000218       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
  .text.kernel_init
-                0x0000000008000228       0x34 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
-                0x0000000008000228                kernel_init
+                0x0000000008000230       0x34 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+                0x0000000008000230                kernel_init
  .text.mutex_lock
-                0x000000000800025c       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
-                0x000000000800025c                mutex_lock
+                0x0000000008000264       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+                0x0000000008000264                mutex_lock
  .text.mutex_unlock
-                0x00000000080002bc       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
-                0x00000000080002bc                mutex_unlock
+                0x00000000080002c4       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+                0x00000000080002c4                mutex_unlock
  .text.panic_app
-                0x0000000008000300        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
-                0x0000000008000300                panic_app
- *fill*         0x0000000008000302        0x2 
+                0x0000000008000308        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+                0x0000000008000308                panic_app
+ *fill*         0x000000000800030a        0x2 
  .text.core_panic
-                0x0000000008000304       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
-                0x0000000008000304                core_panic
+                0x000000000800030c       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+                0x000000000800030c                core_panic
  .text._unschedule
-                0x0000000008000364       0x24 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+                0x000000000800036c       0x24 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
  .text.sched_run
-                0x0000000008000388       0x6c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
-                0x0000000008000388                sched_run
+                0x0000000008000390       0x6c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+                0x0000000008000390                sched_run
  .text.sched_set_status
-                0x00000000080003f4       0x84 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
-                0x00000000080003f4                sched_set_status
+                0x00000000080003fc       0x84 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+                0x00000000080003fc                sched_set_status
  .text.sched_switch
-                0x0000000008000478       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
-                0x0000000008000478                sched_switch
+                0x0000000008000480       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+                0x0000000008000480                sched_switch
  .text.sched_task_exit
-                0x00000000080004b4       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
-                0x00000000080004b4                sched_task_exit
+                0x00000000080004bc       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+                0x00000000080004bc                sched_task_exit
  .text.thread_getname
-                0x00000000080004f0       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
-                0x00000000080004f0                thread_getname
+                0x00000000080004f8       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+                0x00000000080004f8                thread_getname
  .text.thread_add_to_list
-                0x000000000800050c       0x26 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
-                0x000000000800050c                thread_add_to_list
+                0x0000000008000514       0x26 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+                0x0000000008000514                thread_add_to_list
  .text.thread_measure_stack_free
-                0x0000000008000532        0xe /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
-                0x0000000008000532                thread_measure_stack_free
+                0x000000000800053a        0xe /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+                0x000000000800053a                thread_measure_stack_free
  .text.thread_create
-                0x0000000008000540       0xe8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
-                0x0000000008000540                thread_create
+                0x0000000008000548       0xe8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+                0x0000000008000548                thread_create
  .text.thread_state_to_string
-                0x0000000008000628       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
-                0x0000000008000628                thread_state_to_string
+                0x0000000008000630       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+                0x0000000008000630                thread_state_to_string
  .text.cortexm_init
-                0x000000000800063c       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
-                0x000000000800063c                cortexm_init
+                0x0000000008000644       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
+                0x0000000008000644                cortexm_init
  .text.panic_arch
-                0x000000000800067c       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
-                0x000000000800067c                panic_arch
+                0x0000000008000684       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
+                0x0000000008000684                panic_arch
  .text.thread_stack_init
-                0x0000000008000698       0x68 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x0000000008000698                thread_stack_init
+                0x00000000080006a0       0x68 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x00000000080006a0                thread_stack_init
  .text.thread_isr_stack_usage
-                0x0000000008000700       0x24 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x0000000008000700                thread_isr_stack_usage
+                0x0000000008000708       0x24 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x0000000008000708                thread_isr_stack_usage
  .text.thread_isr_stack_pointer
-                0x0000000008000724        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x0000000008000724                thread_isr_stack_pointer
- *fill*         0x000000000800072a        0x2 
+                0x000000000800072c        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x000000000800072c                thread_isr_stack_pointer
+ *fill*         0x0000000008000732        0x2 
  .text.thread_isr_stack_start
-                0x000000000800072c        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x000000000800072c                thread_isr_stack_start
+                0x0000000008000734        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x0000000008000734                thread_isr_stack_start
  .text.cpu_switch_context_exit
-                0x0000000008000734       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x0000000008000734                cpu_switch_context_exit
+                0x000000000800073c       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x000000000800073c                cpu_switch_context_exit
  .text.isr_pendsv
-                0x000000000800074c       0x4c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x000000000800074c                isr_pendsv
- .text.isr_svc  0x0000000008000798       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x0000000008000798                isr_svc
+                0x0000000008000754       0x4c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x0000000008000754                isr_pendsv
+ .text.isr_svc  0x00000000080007a0       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x00000000080007a0                isr_svc
  .text.sched_arch_idle
-                0x00000000080007a8       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
-                0x00000000080007a8                sched_arch_idle
+                0x00000000080007b0       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+                0x00000000080007b0                sched_arch_idle
  .text.hard_fault_default
-                0x00000000080007b8       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x00000000080007b8                hard_fault_default
+                0x00000000080007c0       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x00000000080007c0                hard_fault_default
  .text.nmi_default
-                0x00000000080007fc       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x00000000080007fc                nmi_default
+                0x0000000008000804       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000804                nmi_default
  .text.mem_manage_default
-                0x000000000800080c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800080c                mem_manage_default
+                0x0000000008000814       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000814                mem_manage_default
  .text.bus_fault_default
-                0x000000000800081c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800081c                bus_fault_default
+                0x0000000008000824       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000824                bus_fault_default
  .text.usage_fault_default
-                0x000000000800082c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800082c                usage_fault_default
+                0x0000000008000834       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000834                usage_fault_default
  .text.debug_mon_default
-                0x000000000800083c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800083c                debug_mon_default
+                0x0000000008000844       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000844                debug_mon_default
  .text.dummy_handler_default
-                0x000000000800084c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800084c                dummy_handler_default
-                0x000000000800084c                isr_systick
+                0x0000000008000854       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000854                dummy_handler_default
+                0x0000000008000854                isr_systick
  .text.pre_startup
-                0x000000000800085c        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800085c                pre_startup
+                0x0000000008000864        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000864                pre_startup
  .text.post_startup
-                0x000000000800085e        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x000000000800085e                post_startup
+                0x0000000008000866        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000866                post_startup
  .text.reset_handler_default
-                0x0000000008000860       0x80 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x0000000008000860                reset_handler_default
+                0x0000000008000868       0x80 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x0000000008000868                reset_handler_default
  .text.hard_fault_handler
-                0x00000000080008e0      0x1dc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
-                0x00000000080008e0                hard_fault_handler
+                0x00000000080008e8      0x1dc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+                0x00000000080008e8                hard_fault_handler
  .text.periph_apb_clk
-                0x0000000008000abc       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
-                0x0000000008000abc                periph_apb_clk
+                0x0000000008000ac4       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+                0x0000000008000ac4                periph_apb_clk
  .text.periph_timer_clk
-                0x0000000008000ad4       0x20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
-                0x0000000008000ad4                periph_timer_clk
+                0x0000000008000adc       0x20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+                0x0000000008000adc                periph_timer_clk
  .text.periph_clk_en
-                0x0000000008000af4       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
-                0x0000000008000af4                periph_clk_en
+                0x0000000008000afc       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+                0x0000000008000afc                periph_clk_en
  .text.cpu_init
-                0x0000000008000b3c       0x6c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
-                0x0000000008000b3c                cpu_init
+                0x0000000008000b44       0x6c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
+                0x0000000008000b44                cpu_init
  .text.isrpipe_write_one
-                0x0000000008000ba8       0x16 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
-                0x0000000008000ba8                isrpipe_write_one
+                0x0000000008000bb0       0x16 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+                0x0000000008000bb0                isrpipe_write_one
  .text.isrpipe_read
-                0x0000000008000bbe       0x22 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
-                0x0000000008000bbe                isrpipe_read
- .text._init    0x0000000008000be0        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000be0                _init
- .text._fini    0x0000000008000be2        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000be2                _fini
- .text._sbrk_r  0x0000000008000be4       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000be4                _sbrk_r
- .text._read_r  0x0000000008000c24        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000c24                _read_r
+                0x0000000008000bc6       0x22 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+                0x0000000008000bc6                isrpipe_read
+ .text._init    0x0000000008000be8        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000be8                _init
+ .text._fini    0x0000000008000bea        0x2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000bea                _fini
+ .text._sbrk_r  0x0000000008000bec       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000bec                _sbrk_r
+ .text._read_r  0x0000000008000c2c        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000c2c                _read_r
  .text._write_r
-                0x0000000008000c2c        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000c2c                _write_r
+                0x0000000008000c34        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000c34                _write_r
  .text._close_r
-                0x0000000008000c34        0xa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000c34                _close_r
+                0x0000000008000c3c        0xa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000c3c                _close_r
  .text._lseek_r
-                0x0000000008000c3e        0xa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000c3e                _lseek_r
+                0x0000000008000c46        0xa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000c46                _lseek_r
  .text._fstat_r
-                0x0000000008000c48        0xa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000c48                _fstat_r
+                0x0000000008000c50        0xa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000c50                _fstat_r
  .text._isatty_r
-                0x0000000008000c52       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
-                0x0000000008000c52                _isatty_r
- *fill*         0x0000000008000c62        0x2 
+                0x0000000008000c5a       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+                0x0000000008000c5a                _isatty_r
+ *fill*         0x0000000008000c6a        0x2 
  .text.led_init
-                0x0000000008000c64       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
-                0x0000000008000c64                led_init
+                0x0000000008000c6c       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
+                0x0000000008000c6c                led_init
  .text.periph_init
-                0x0000000008000c80       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
-                0x0000000008000c80                periph_init
+                0x0000000008000c88       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
+                0x0000000008000c88                periph_init
  .text.gpio_init
-                0x0000000008000c90       0x68 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000c90                gpio_init
+                0x0000000008000c98       0x68 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000c98                gpio_init
  .text.gpio_init_af
-                0x0000000008000cf8       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000cf8                gpio_init_af
+                0x0000000008000d00       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000d00                gpio_init_af
  .text.gpio_irq_enable
-                0x0000000008000d50       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000d50                gpio_irq_enable
+                0x0000000008000d58       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000d58                gpio_irq_enable
  .text.gpio_irq_disable
-                0x0000000008000d68       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000d68                gpio_irq_disable
+                0x0000000008000d70       0x1c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000d70                gpio_irq_disable
  .text.gpio_set
-                0x0000000008000d84       0x12 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000d84                gpio_set
+                0x0000000008000d8c       0x12 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000d8c                gpio_set
  .text.gpio_clear
-                0x0000000008000d96       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000d96                gpio_clear
- *fill*         0x0000000008000daa        0x2 
+                0x0000000008000d9e       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000d9e                gpio_clear
+ *fill*         0x0000000008000db2        0x2 
  .text.gpio_init_int
-                0x0000000008000dac       0xc0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000dac                gpio_init_int
+                0x0000000008000db4       0xc0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000db4                gpio_init_int
  .text.isr_exti
-                0x0000000008000e6c       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
-                0x0000000008000e6c                isr_exti
+                0x0000000008000e74       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+                0x0000000008000e74                isr_exti
  .text._init.constprop.0
-                0x0000000008000ec4       0x7c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+                0x0000000008000ecc       0x7c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
  .text.i2c_init
-                0x0000000008000f40       0x88 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
-                0x0000000008000f40                i2c_init
+                0x0000000008000f48       0x88 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+                0x0000000008000f48                i2c_init
  .text.pm_backup_regulator_on
-                0x0000000008000fc8       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
-                0x0000000008000fc8                pm_backup_regulator_on
- .text.pm_set   0x0000000008000ff8       0x80 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
-                0x0000000008000ff8                pm_set
+                0x0000000008000fd0       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+                0x0000000008000fd0                pm_backup_regulator_on
+ .text.pm_set   0x0000000008001000       0x80 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+                0x0000000008001000                pm_set
  .text.timer_set_absolute
-                0x0000000008001078       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
-                0x0000000008001078                timer_set_absolute
+                0x0000000008001080       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+                0x0000000008001080                timer_set_absolute
  .text.timer_read
-                0x00000000080010b0       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
-                0x00000000080010b0                timer_read
+                0x00000000080010b8       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+                0x00000000080010b8                timer_read
  .text.timer_start
-                0x00000000080010c0       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
-                0x00000000080010c0                timer_start
+                0x00000000080010c8       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+                0x00000000080010c8                timer_start
  .text.timer_init
-                0x00000000080010d4       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
-                0x00000000080010d4                timer_init
+                0x00000000080010dc       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+                0x00000000080010dc                timer_init
  .text.isr_tim5
-                0x000000000800112c       0x74 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
-                0x000000000800112c                isr_tim5
+                0x0000000008001134       0x74 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+                0x0000000008001134                isr_tim5
  .text.irq_handler
-                0x00000000080011a0       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x00000000080011a8       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
  .text.uart_enable_clock
-                0x00000000080011f0       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x00000000080011f8       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
  .text.uart_init
-                0x0000000008001220       0x98 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
-                0x0000000008001220                uart_init
+                0x0000000008001228       0x98 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x0000000008001228                uart_init
  .text.uart_write
-                0x00000000080012b8       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
-                0x00000000080012b8                uart_write
+                0x00000000080012c0       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x00000000080012c0                uart_write
  .text.isr_usart2
-                0x00000000080012f0        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
-                0x00000000080012f0                isr_usart2
+                0x00000000080012f8        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x00000000080012f8                isr_usart2
  .text.isr_usart1
-                0x00000000080012f6        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
-                0x00000000080012f6                isr_usart1
+                0x00000000080012fe        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x00000000080012fe                isr_usart1
  .text.isr_usart6
-                0x00000000080012fc        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
-                0x00000000080012fc                isr_usart6
- *fill*         0x0000000008001302        0x2 
+                0x0000000008001304        0x6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+                0x0000000008001304                isr_usart6
+ *fill*         0x000000000800130a        0x2 
  .text.pm_set_lowest
-                0x0000000008001304       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
-                0x0000000008001304                pm_set_lowest
+                0x000000000800130c       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+                0x000000000800130c                pm_set_lowest
  .text.pm_block
-                0x0000000008001340       0x24 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
-                0x0000000008001340                pm_block
- .text.pm_off   0x0000000008001364       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
-                0x0000000008001364                pm_off
- .text.ps       0x0000000008001374       0xec /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
-                0x0000000008001374                ps
- .text._cb      0x0000000008001460       0x28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+                0x0000000008001348       0x24 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+                0x0000000008001348                pm_block
+ .text.pm_off   0x000000000800136c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+                0x000000000800136c                pm_off
+ .text.ps       0x000000000800137c       0xec /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
+                0x000000000800137c                ps
+ .text._cb      0x0000000008001468       0x28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
  .text.srf04_init
-                0x0000000008001488       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
-                0x0000000008001488                srf04_init
+                0x0000000008001490       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+                0x0000000008001490                srf04_init
  .text.srf04_trigger
-                0x00000000080014d0       0x2a /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
-                0x00000000080014d0                srf04_trigger
+                0x00000000080014d8       0x2a /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+                0x00000000080014d8                srf04_trigger
  .text.srf04_get_distance
-                0x00000000080014fa       0x26 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
-                0x00000000080014fa                srf04_get_distance
+                0x0000000008001502       0x26 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+                0x0000000008001502                srf04_get_distance
  .text.stdio_init
-                0x0000000008001520       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
-                0x0000000008001520                stdio_init
+                0x0000000008001528       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+                0x0000000008001528                stdio_init
  .text.stdio_read
-                0x0000000008001538       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
-                0x0000000008001538                stdio_read
+                0x0000000008001540       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+                0x0000000008001540                stdio_read
  .text.stdio_write
-                0x0000000008001548       0x12 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
-                0x0000000008001548                stdio_write
- *fill*         0x000000000800155a        0x2 
+                0x0000000008001550       0x12 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+                0x0000000008001550                stdio_write
+ *fill*         0x0000000008001562        0x2 
  .text.stmclk_enable_hsi
-                0x000000000800155c       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
-                0x000000000800155c                stmclk_enable_hsi
+                0x0000000008001564       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+                0x0000000008001564                stmclk_enable_hsi
  .text.stmclk_disable_hsi
-                0x0000000008001574       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
-                0x0000000008001574                stmclk_disable_hsi
+                0x000000000800157c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+                0x000000000800157c                stmclk_disable_hsi
  .text.stmclk_dbp_unlock
-                0x0000000008001584       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
-                0x0000000008001584                stmclk_dbp_unlock
+                0x000000000800158c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+                0x000000000800158c                stmclk_dbp_unlock
  .text.stmclk_dbp_lock
-                0x0000000008001594       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
-                0x0000000008001594                stmclk_dbp_lock
+                0x000000000800159c       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+                0x000000000800159c                stmclk_dbp_lock
  .text.stmclk_dbp_is_locked
-                0x00000000080015a4       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
-                0x00000000080015a4                stmclk_dbp_is_locked
+                0x00000000080015ac       0x14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+                0x00000000080015ac                stmclk_dbp_is_locked
  .text.stmclk_init_sysclk
-                0x00000000080015b8       0x7c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
-                0x00000000080015b8                stmclk_init_sysclk
+                0x00000000080015c0       0x7c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
+                0x00000000080015c0                stmclk_init_sysclk
  .text.dummy_handler
-                0x0000000008001634        0x4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
-                0x0000000008001634                isr_dma2_stream4
-                0x0000000008001634                isr_pvd
-                0x0000000008001634                isr_rtc_wkup
-                0x0000000008001634                isr_i2c1_ev
-                0x0000000008001634                isr_dma2_stream0
-                0x0000000008001634                isr_tim4
-                0x0000000008001634                isr_dma2_stream6
-                0x0000000008001634                isr_dma1_stream1
-                0x0000000008001634                isr_i2c3_ev
-                0x0000000008001634                isr_dma2_stream5
-                0x0000000008001634                isr_tim2
-                0x0000000008001634                isr_sdio
-                0x0000000008001634                isr_spi2
-                0x0000000008001634                isr_tamp_stamp
-                0x0000000008001634                dummy_handler
-                0x0000000008001634                isr_otg_fs
-                0x0000000008001634                isr_dma1_stream7
-                0x0000000008001634                isr_dma1_stream6
-                0x0000000008001634                isr_adc
-                0x0000000008001634                isr_dma2_stream3
-                0x0000000008001634                isr_spi1
-                0x0000000008001634                isr_rcc
-                0x0000000008001634                isr_flash
-                0x0000000008001634                isr_dma2_stream7
-                0x0000000008001634                isr_i2c3_er
-                0x0000000008001634                isr_tim1_cc
-                0x0000000008001634                isr_dma1_stream4
-                0x0000000008001634                isr_spi4
-                0x0000000008001634                isr_i2c2_er
-                0x0000000008001634                isr_otg_fs_wkup
-                0x0000000008001634                isr_dma1_stream0
-                0x0000000008001634                isr_dma1_stream5
-                0x0000000008001634                isr_spi3
-                0x0000000008001634                isr_dma2_stream1
-                0x0000000008001634                isr_tim3
-                0x0000000008001634                isr_dma2_stream2
-                0x0000000008001634                isr_fpu
-                0x0000000008001634                isr_tim1_brk_tim9
-                0x0000000008001634                isr_tim1_up_tim10
-                0x0000000008001634                isr_i2c2_ev
-                0x0000000008001634                isr_rtc_alarm
-                0x0000000008001634                isr_dma1_stream3
-                0x0000000008001634                isr_dma1_stream2
-                0x0000000008001634                isr_tim1_trg_com_tim11
-                0x0000000008001634                isr_i2c1_er
-                0x0000000008001634                isr_wwdg
- .text._pop     0x0000000008001638       0x12 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+                0x000000000800163c        0x4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
+                0x000000000800163c                isr_dma2_stream4
+                0x000000000800163c                isr_pvd
+                0x000000000800163c                isr_rtc_wkup
+                0x000000000800163c                isr_i2c1_ev
+                0x000000000800163c                isr_dma2_stream0
+                0x000000000800163c                isr_tim4
+                0x000000000800163c                isr_dma2_stream6
+                0x000000000800163c                isr_dma1_stream1
+                0x000000000800163c                isr_i2c3_ev
+                0x000000000800163c                isr_dma2_stream5
+                0x000000000800163c                isr_tim2
+                0x000000000800163c                isr_sdio
+                0x000000000800163c                isr_spi2
+                0x000000000800163c                isr_tamp_stamp
+                0x000000000800163c                dummy_handler
+                0x000000000800163c                isr_otg_fs
+                0x000000000800163c                isr_dma1_stream7
+                0x000000000800163c                isr_dma1_stream6
+                0x000000000800163c                isr_adc
+                0x000000000800163c                isr_dma2_stream3
+                0x000000000800163c                isr_spi1
+                0x000000000800163c                isr_rcc
+                0x000000000800163c                isr_flash
+                0x000000000800163c                isr_dma2_stream7
+                0x000000000800163c                isr_i2c3_er
+                0x000000000800163c                isr_tim1_cc
+                0x000000000800163c                isr_dma1_stream4
+                0x000000000800163c                isr_spi4
+                0x000000000800163c                isr_i2c2_er
+                0x000000000800163c                isr_otg_fs_wkup
+                0x000000000800163c                isr_dma1_stream0
+                0x000000000800163c                isr_dma1_stream5
+                0x000000000800163c                isr_spi3
+                0x000000000800163c                isr_dma2_stream1
+                0x000000000800163c                isr_tim3
+                0x000000000800163c                isr_dma2_stream2
+                0x000000000800163c                isr_fpu
+                0x000000000800163c                isr_tim1_brk_tim9
+                0x000000000800163c                isr_tim1_up_tim10
+                0x000000000800163c                isr_i2c2_ev
+                0x000000000800163c                isr_rtc_alarm
+                0x000000000800163c                isr_dma1_stream3
+                0x000000000800163c                isr_dma1_stream2
+                0x000000000800163c                isr_tim1_trg_com_tim11
+                0x000000000800163c                isr_i2c1_er
+                0x000000000800163c                isr_wwdg
+ .text._pop     0x0000000008001640       0x12 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
  .text.tsrb_get
-                0x000000000800164a       0x3e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
-                0x000000000800164a                tsrb_get
+                0x0000000008001652       0x3e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+                0x0000000008001652                tsrb_get
  .text.tsrb_add_one
-                0x0000000008001688       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
-                0x0000000008001688                tsrb_add_one
+                0x0000000008001690       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+                0x0000000008001690                tsrb_add_one
  .text._add_timer_to_list
-                0x00000000080016c4       0x34 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x00000000080016cc       0x34 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
  .text._remove_timer_from_list
-                0x00000000080016f8       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x0000000008001700       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
  .text._xtimer_now64
-                0x0000000008001710       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x0000000008001718       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
  .text._schedule_earliest_lltimer
-                0x0000000008001748       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x0000000008001750       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
  .text._xtimer_now
-                0x000000000800178c        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
-                0x000000000800178c                _xtimer_now
+                0x0000000008001794        0x8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x0000000008001794                _xtimer_now
  .text.xtimer_init
-                0x0000000008001794       0x28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
-                0x0000000008001794                xtimer_init
+                0x000000000800179c       0x28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x000000000800179c                xtimer_init
  .text._periph_timer_callback
-                0x00000000080017bc      0x110 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x00000000080017c4      0x110 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
  .text.xtimer_remove
-                0x00000000080018cc       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
-                0x00000000080018cc                xtimer_remove
+                0x00000000080018d4       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x00000000080018d4                xtimer_remove
  .text._xtimer_set64
-                0x00000000080018fc       0x7c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
-                0x00000000080018fc                _xtimer_set64
+                0x0000000008001904       0x7c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+                0x0000000008001904                _xtimer_set64
  .text._callback_unlock_mutex
-                0x0000000008001978        0x4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+                0x0000000008001980        0x4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
  .text._xtimer_tsleep
-                0x000000000800197c       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
-                0x000000000800197c                _xtimer_tsleep
- .text          0x00000000080019d4      0x18c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x00000000080019d4                __sflush_r
-                0x0000000008001ae8                _fflush_r
-                0x0000000008001b3c                fflush
- .text          0x0000000008001b60      0x210 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008001b64                _cleanup_r
-                0x0000000008001b74                __sfmoreglue
-                0x0000000008001ba4                __sfp
-                0x0000000008001d1c                _cleanup
-                0x0000000008001d30                __sinit
-                0x0000000008001d38                __sfp_lock_acquire
-                0x0000000008001d3c                __sfp_lock_release
-                0x0000000008001d40                __sinit_lock_acquire
-                0x0000000008001d44                __sinit_lock_release
-                0x0000000008001d48                __fp_lock_all
-                0x0000000008001d5c                __fp_unlock_all
- .text          0x0000000008001d70       0x88 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
-                0x0000000008001d70                _fwalk
-                0x0000000008001db0                _fwalk_reent
- .text          0x0000000008001df8       0x48 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
-                0x0000000008001df8                __libc_init_array
- .text          0x0000000008001e40      0x134 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
-                0x0000000008001e40                memcpy
- .text          0x0000000008001f74       0xa0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x0000000008001f74                memset
- .text          0x0000000008002014       0xbc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000008002014                _free_r
- .text          0x00000000080020d0       0xb4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00000000080020d0                _malloc_r
- .text          0x0000000008002184       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
-                0x0000000008002184                _printf_r
-                0x0000000008002184                _iprintf_r
-                0x00000000080021b0                printf
-                0x00000000080021b0                iprintf
- .text          0x00000000080021e4       0xf4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
-                0x00000000080021e4                _puts_r
-                0x00000000080022c8                puts
- .text          0x00000000080022d8       0x90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000080022d8                __sread
-                0x00000000080022fc                __seofread
-                0x0000000008002300                __swrite
-                0x0000000008002340                __sseek
-                0x0000000008002360                __sclose
- .text          0x0000000008002368       0xc0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
-                0x0000000008002368                __swbuf_r
-                0x0000000008002418                __swbuf
- .text          0x0000000008002428      0x104 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
-                0x0000000008002428                __swsetup_r
- .text          0x000000000800252c       0xf4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x000000000800252c                __swhatbuf_r
-                0x0000000008002588                __smakebuf_r
- .text          0x0000000008002620        0x8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
-                0x0000000008002620                __malloc_lock
-                0x0000000008002624                __malloc_unlock
- .text          0x0000000008002628       0x50 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
-                0x0000000008002628                _realloc_r
- .text          0x0000000008002678      0x324 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x00000000080026b4                __sfputs_r
-                0x00000000080026e4                __sprint_r
-                0x0000000008002700                _vfiprintf_r
-                0x0000000008002700                _vfprintf_r
-                0x0000000008002984                vfiprintf
-                0x0000000008002984                vfprintf
- .text          0x000000000800299c      0x428 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800299c                _printf_common
-                0x0000000008002ac8                _printf_i
- .text          0x0000000008002dc4      0x2e0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
-                0x0000000008002dc4                __sfvwrite_r
- *fill*         0x00000000080030a4        0xc 
+                0x0000000008001984       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+                0x0000000008001984                _xtimer_tsleep
+ .text          0x00000000080019dc      0x18c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x00000000080019dc                __sflush_r
+                0x0000000008001af0                _fflush_r
+                0x0000000008001b44                fflush
+ .text          0x0000000008001b68      0x210 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008001b6c                _cleanup_r
+                0x0000000008001b7c                __sfmoreglue
+                0x0000000008001bac                __sfp
+                0x0000000008001d24                _cleanup
+                0x0000000008001d38                __sinit
+                0x0000000008001d40                __sfp_lock_acquire
+                0x0000000008001d44                __sfp_lock_release
+                0x0000000008001d48                __sinit_lock_acquire
+                0x0000000008001d4c                __sinit_lock_release
+                0x0000000008001d50                __fp_lock_all
+                0x0000000008001d64                __fp_unlock_all
+ .text          0x0000000008001d78       0x88 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+                0x0000000008001d78                _fwalk
+                0x0000000008001db8                _fwalk_reent
+ .text          0x0000000008001e00       0x48 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x0000000008001e00                __libc_init_array
+ .text          0x0000000008001e48      0x134 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+                0x0000000008001e48                memcpy
+ .text          0x0000000008001f7c       0xa0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x0000000008001f7c                memset
+ .text          0x000000000800201c       0xbc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000800201c                _free_r
+ .text          0x00000000080020d8       0xb4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000080020d8                _malloc_r
+ .text          0x000000000800218c       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
+                0x000000000800218c                _printf_r
+                0x000000000800218c                _iprintf_r
+                0x00000000080021b8                printf
+                0x00000000080021b8                iprintf
+ .text          0x00000000080021ec       0xf4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
+                0x00000000080021ec                _puts_r
+                0x00000000080022d0                puts
+ .text          0x00000000080022e0       0x90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x00000000080022e0                __sread
+                0x0000000008002304                __seofread
+                0x0000000008002308                __swrite
+                0x0000000008002348                __sseek
+                0x0000000008002368                __sclose
+ .text          0x0000000008002370       0xc0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+                0x0000000008002370                __swbuf_r
+                0x0000000008002420                __swbuf
+ .text          0x0000000008002430      0x104 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+                0x0000000008002430                __swsetup_r
+ .text          0x0000000008002534       0xf4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x0000000008002534                __swhatbuf_r
+                0x0000000008002590                __smakebuf_r
+ .text          0x0000000008002628        0x8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000008002628                __malloc_lock
+                0x000000000800262c                __malloc_unlock
+ .text          0x0000000008002630       0x50 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008002630                _realloc_r
+ .text          0x0000000008002680      0x324 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000080026bc                __sfputs_r
+                0x00000000080026ec                __sprint_r
+                0x0000000008002708                _vfiprintf_r
+                0x0000000008002708                _vfprintf_r
+                0x000000000800298c                vfiprintf
+                0x000000000800298c                vfprintf
+ .text          0x00000000080029a4      0x428 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000080029a4                _printf_common
+                0x0000000008002ad0                _printf_i
+ .text          0x0000000008002dcc      0x2e0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+                0x0000000008002dcc                __sfvwrite_r
+ *fill*         0x00000000080030ac        0x4 
  .text          0x00000000080030b0       0xa0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
                 0x00000000080030b0                memchr
  .text          0x0000000008003150       0xd8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
@@ -9109,125 +9109,125 @@ END GROUP
 OUTPUT(/home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ultrasonic_test.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x0000000000000000    0x486a5
- .debug_info    0x0000000000000000     0x1bb3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
- .debug_info    0x0000000000001bb3      0xd32 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
- .debug_info    0x00000000000028e5     0x1937 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
- .debug_info    0x000000000000421c      0xa34 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
- .debug_info    0x0000000000004c50      0xe74 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
- .debug_info    0x0000000000005ac4     0x1b06 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
- .debug_info    0x00000000000075ca      0xf0e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
- .debug_info    0x00000000000084d8     0x1817 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
- .debug_info    0x0000000000009cef     0x1e37 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
- .debug_info    0x000000000000bb26     0x138e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
- .debug_info    0x000000000000ceb4      0xd8b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
- .debug_info    0x000000000000dc3f     0x12cd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
- .debug_info    0x000000000000ef0c     0x23a1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
- .debug_info    0x00000000000112ad     0x1ad4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
- .debug_info    0x0000000000012d81     0x1e62 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
- .debug_info    0x0000000000014be3      0x7b2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
- .debug_info    0x0000000000015395     0x2917 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
- .debug_info    0x0000000000017cac     0x1a71 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
- .debug_info    0x000000000001971d     0x1710 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
- .debug_info    0x000000000001ae2d     0x27f9 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
- .debug_info    0x000000000001d626     0x2726 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
- .debug_info    0x000000000001fd4c     0x10fa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
- .debug_info    0x0000000000020e46     0x2091 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
- .debug_info    0x0000000000022ed7     0x23a4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
- .debug_info    0x000000000002527b     0x1dec /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
- .debug_info    0x0000000000027067     0x1047 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
- .debug_info    0x00000000000280ae     0x16e1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
- .debug_info    0x000000000002978f     0x1e21 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
- .debug_info    0x000000000002b5b0     0x1da1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
- .debug_info    0x000000000002d351     0x19c3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
- .debug_info    0x000000000002ed14     0x1b14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
- .debug_info    0x0000000000030828      0x288 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
- .debug_info    0x0000000000030ab0     0x1221 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
- .debug_info    0x0000000000031cd1     0x23fd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
- .debug_info    0x00000000000340ce     0x2e6f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
- .debug_info    0x0000000000036f3d      0xd73 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_info    0x0000000000037cb0     0x11a8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_info    0x0000000000038e58      0xca4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
- .debug_info    0x0000000000039afc      0x92a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
- .debug_info    0x000000000003a426      0x11a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_info    0x000000000003a540       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_info    0x000000000003a566      0xf1b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_info    0x000000000003b481      0xb5d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_info    0x000000000003bfde      0xc5a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_info    0x000000000003cc38      0xc67 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
- .debug_info    0x000000000003d89f      0xd0c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
- .debug_info    0x000000000003e5ab      0xe67 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
- .debug_info    0x000000000003f412      0xc90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_info    0x00000000000400a2      0xbfa /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_info    0x0000000000040c9c      0xf62 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_info    0x0000000000041bfe      0x961 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
- .debug_info    0x000000000004255f      0xb77 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_info    0x00000000000430d6     0x1749 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_info    0x000000000004481f     0x158e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_info    0x0000000000045dad      0xf01 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
- .debug_info    0x0000000000046cae       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
- .debug_info    0x0000000000046cd4      0xf2b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
- .debug_info    0x0000000000047bff      0xaa6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
+.debug_info     0x0000000000000000    0x486a2
+ .debug_info    0x0000000000000000     0x1bb0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
+ .debug_info    0x0000000000001bb0      0xd32 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
+ .debug_info    0x00000000000028e2     0x1937 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
+ .debug_info    0x0000000000004219      0xa34 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
+ .debug_info    0x0000000000004c4d      0xe74 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+ .debug_info    0x0000000000005ac1     0x1b06 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+ .debug_info    0x00000000000075c7      0xf0e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+ .debug_info    0x00000000000084d5     0x1817 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+ .debug_info    0x0000000000009cec     0x1e37 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+ .debug_info    0x000000000000bb23     0x138e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
+ .debug_info    0x000000000000ceb1      0xd8b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
+ .debug_info    0x000000000000dc3c     0x12cd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+ .debug_info    0x000000000000ef09     0x23a1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+ .debug_info    0x00000000000112aa     0x1ad4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+ .debug_info    0x0000000000012d7e     0x1e62 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
+ .debug_info    0x0000000000014be0      0x7b2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+ .debug_info    0x0000000000015392     0x2917 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+ .debug_info    0x0000000000017ca9     0x1a71 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
+ .debug_info    0x000000000001971a     0x1710 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
+ .debug_info    0x000000000001ae2a     0x27f9 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+ .debug_info    0x000000000001d623     0x2726 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+ .debug_info    0x000000000001fd49     0x10fa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+ .debug_info    0x0000000000020e43     0x2091 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+ .debug_info    0x0000000000022ed4     0x23a4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+ .debug_info    0x0000000000025278     0x1dec /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+ .debug_info    0x0000000000027064     0x1047 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
+ .debug_info    0x00000000000280ab     0x16e1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
+ .debug_info    0x000000000002978c     0x1e21 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+ .debug_info    0x000000000002b5ad     0x1da1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+ .debug_info    0x000000000002d34e     0x19c3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+ .debug_info    0x000000000002ed11     0x1b14 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
+ .debug_info    0x0000000000030825      0x288 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
+ .debug_info    0x0000000000030aad     0x1221 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+ .debug_info    0x0000000000031cce     0x23fd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+ .debug_info    0x00000000000340cb     0x2e6f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+ .debug_info    0x0000000000036f3a      0xd73 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_info    0x0000000000037cad     0x11a8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_info    0x0000000000038e55      0xca4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+ .debug_info    0x0000000000039af9      0x92a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_info    0x000000000003a423      0x11a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_info    0x000000000003a53d       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_info    0x000000000003a563      0xf1b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_info    0x000000000003b47e      0xb5d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_info    0x000000000003bfdb      0xc5a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_info    0x000000000003cc35      0xc67 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
+ .debug_info    0x000000000003d89c      0xd0c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
+ .debug_info    0x000000000003e5a8      0xe67 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+ .debug_info    0x000000000003f40f      0xc90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_info    0x000000000004009f      0xbfa /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_info    0x0000000000040c99      0xf62 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_info    0x0000000000041bfb      0x961 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_info    0x000000000004255c      0xb77 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_info    0x00000000000430d3     0x1749 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_info    0x000000000004481c     0x158e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_info    0x0000000000045daa      0xf01 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+ .debug_info    0x0000000000046cab       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
+ .debug_info    0x0000000000046cd1      0xf2b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_info    0x0000000000047bfc      0xaa6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
 
-.debug_abbrev   0x0000000000000000     0xb6a0
- .debug_abbrev  0x0000000000000000      0x351 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
- .debug_abbrev  0x0000000000000351      0x22c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
- .debug_abbrev  0x000000000000057d      0x285 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
- .debug_abbrev  0x0000000000000802      0x1ed /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
- .debug_abbrev  0x00000000000009ef      0x32c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
- .debug_abbrev  0x0000000000000d1b      0x418 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
- .debug_abbrev  0x0000000000001133      0x369 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
- .debug_abbrev  0x000000000000149c      0x4db /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
- .debug_abbrev  0x0000000000001977      0x532 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
- .debug_abbrev  0x0000000000001ea9      0x3b0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
- .debug_abbrev  0x0000000000002259      0x2f9 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
- .debug_abbrev  0x0000000000002552      0x489 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
- .debug_abbrev  0x00000000000029db      0x4b5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
- .debug_abbrev  0x0000000000002e90      0x399 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
- .debug_abbrev  0x0000000000003229      0x395 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
- .debug_abbrev  0x00000000000035be      0x2f0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
- .debug_abbrev  0x00000000000038ae      0x55e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
- .debug_abbrev  0x0000000000003e0c      0x2b1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
- .debug_abbrev  0x00000000000040bd      0x2f3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
- .debug_abbrev  0x00000000000043b0      0x4fd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
- .debug_abbrev  0x00000000000048ad      0x5a6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
- .debug_abbrev  0x0000000000004e53      0x39e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
- .debug_abbrev  0x00000000000051f1      0x479 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
- .debug_abbrev  0x000000000000566a      0x52b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
- .debug_abbrev  0x0000000000005b95      0x3bc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
- .debug_abbrev  0x0000000000005f51      0x301 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
- .debug_abbrev  0x0000000000006252      0x576 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
- .debug_abbrev  0x00000000000067c8      0x430 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
- .debug_abbrev  0x0000000000006bf8      0x41a /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
- .debug_abbrev  0x0000000000007012      0x2d6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
- .debug_abbrev  0x00000000000072e8      0x376 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
- .debug_abbrev  0x000000000000765e       0xf4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
- .debug_abbrev  0x0000000000007752      0x270 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
- .debug_abbrev  0x00000000000079c2      0x53c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
- .debug_abbrev  0x0000000000007efe      0x568 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
- .debug_abbrev  0x0000000000008466      0x2e4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_abbrev  0x000000000000874a      0x3dc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_abbrev  0x0000000000008b26      0x210 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
- .debug_abbrev  0x0000000000008d36      0x17a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
- .debug_abbrev  0x0000000000008eb0       0xcc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_abbrev  0x0000000000008f7c       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_abbrev  0x0000000000008f90      0x1d9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_abbrev  0x0000000000009169      0x276 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_abbrev  0x00000000000093df      0x2d1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_abbrev  0x00000000000096b0      0x29f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
- .debug_abbrev  0x000000000000994f      0x2ef /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
- .debug_abbrev  0x0000000000009c3e      0x26f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
- .debug_abbrev  0x0000000000009ead      0x285 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_abbrev  0x000000000000a132      0x23a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_abbrev  0x000000000000a36c      0x2f6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_abbrev  0x000000000000a662      0x1c5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
- .debug_abbrev  0x000000000000a827      0x22a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_abbrev  0x000000000000aa51      0x337 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_abbrev  0x000000000000ad88      0x2d1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_abbrev  0x000000000000b059      0x270 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
- .debug_abbrev  0x000000000000b2c9       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
- .debug_abbrev  0x000000000000b2dd      0x1de /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
- .debug_abbrev  0x000000000000b4bb      0x1e5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
+.debug_abbrev   0x0000000000000000     0xb69e
+ .debug_abbrev  0x0000000000000000      0x34f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
+ .debug_abbrev  0x000000000000034f      0x22c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
+ .debug_abbrev  0x000000000000057b      0x285 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
+ .debug_abbrev  0x0000000000000800      0x1ed /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
+ .debug_abbrev  0x00000000000009ed      0x32c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+ .debug_abbrev  0x0000000000000d19      0x418 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+ .debug_abbrev  0x0000000000001131      0x369 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+ .debug_abbrev  0x000000000000149a      0x4db /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+ .debug_abbrev  0x0000000000001975      0x532 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+ .debug_abbrev  0x0000000000001ea7      0x3b0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
+ .debug_abbrev  0x0000000000002257      0x2f9 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
+ .debug_abbrev  0x0000000000002550      0x489 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+ .debug_abbrev  0x00000000000029d9      0x4b5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+ .debug_abbrev  0x0000000000002e8e      0x399 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+ .debug_abbrev  0x0000000000003227      0x395 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
+ .debug_abbrev  0x00000000000035bc      0x2f0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+ .debug_abbrev  0x00000000000038ac      0x55e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+ .debug_abbrev  0x0000000000003e0a      0x2b1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
+ .debug_abbrev  0x00000000000040bb      0x2f3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
+ .debug_abbrev  0x00000000000043ae      0x4fd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+ .debug_abbrev  0x00000000000048ab      0x5a6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+ .debug_abbrev  0x0000000000004e51      0x39e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+ .debug_abbrev  0x00000000000051ef      0x479 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+ .debug_abbrev  0x0000000000005668      0x52b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+ .debug_abbrev  0x0000000000005b93      0x3bc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+ .debug_abbrev  0x0000000000005f4f      0x301 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
+ .debug_abbrev  0x0000000000006250      0x576 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
+ .debug_abbrev  0x00000000000067c6      0x430 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+ .debug_abbrev  0x0000000000006bf6      0x41a /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+ .debug_abbrev  0x0000000000007010      0x2d6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+ .debug_abbrev  0x00000000000072e6      0x376 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
+ .debug_abbrev  0x000000000000765c       0xf4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
+ .debug_abbrev  0x0000000000007750      0x270 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+ .debug_abbrev  0x00000000000079c0      0x53c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+ .debug_abbrev  0x0000000000007efc      0x568 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+ .debug_abbrev  0x0000000000008464      0x2e4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_abbrev  0x0000000000008748      0x3dc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_abbrev  0x0000000000008b24      0x210 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+ .debug_abbrev  0x0000000000008d34      0x17a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000008eae       0xcc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000008f7a       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000008f8e      0x1d9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000009167      0x276 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_abbrev  0x00000000000093dd      0x2d1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_abbrev  0x00000000000096ae      0x29f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
+ .debug_abbrev  0x000000000000994d      0x2ef /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000009c3c      0x26f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+ .debug_abbrev  0x0000000000009eab      0x285 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_abbrev  0x000000000000a130      0x23a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_abbrev  0x000000000000a36a      0x2f6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_abbrev  0x000000000000a660      0x1c5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_abbrev  0x000000000000a825      0x22a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_abbrev  0x000000000000aa4f      0x337 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_abbrev  0x000000000000ad86      0x2d1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_abbrev  0x000000000000b057      0x270 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+ .debug_abbrev  0x000000000000b2c7       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
+ .debug_abbrev  0x000000000000b2db      0x1de /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_abbrev  0x000000000000b4b9      0x1e5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
 
 .debug_loc      0x0000000000000000     0xb8d5
  .debug_loc     0x0000000000000000       0x5e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
@@ -9401,53 +9401,53 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000000d28       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
 
-.debug_ranges   0x0000000000000000     0x2538
- .debug_ranges  0x0000000000000000       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
- .debug_ranges  0x0000000000000030       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
- .debug_ranges  0x0000000000000040       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
- .debug_ranges  0x0000000000000058       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
- .debug_ranges  0x0000000000000070       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
- .debug_ranges  0x00000000000000c0      0x280 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
- .debug_ranges  0x0000000000000340       0x28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
- .debug_ranges  0x0000000000000368      0x180 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
- .debug_ranges  0x00000000000004e8      0x298 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
- .debug_ranges  0x0000000000000780       0xb8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
- .debug_ranges  0x0000000000000838       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
- .debug_ranges  0x0000000000000880       0x88 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
- .debug_ranges  0x0000000000000908       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
- .debug_ranges  0x0000000000000998       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
- .debug_ranges  0x00000000000009d8       0xb8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
- .debug_ranges  0x0000000000000a90       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
- .debug_ranges  0x0000000000000ad8      0x1d8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
- .debug_ranges  0x0000000000000cb0       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
- .debug_ranges  0x0000000000000cc8       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
- .debug_ranges  0x0000000000000d10      0x250 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
- .debug_ranges  0x0000000000000f60      0x100 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
- .debug_ranges  0x0000000000001060       0x78 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
- .debug_ranges  0x00000000000010d8      0x138 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
- .debug_ranges  0x0000000000001210      0x128 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
- .debug_ranges  0x0000000000001338       0xc8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
- .debug_ranges  0x0000000000001400      0x118 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
- .debug_ranges  0x0000000000001518      0x170 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
- .debug_ranges  0x0000000000001688       0xb0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
- .debug_ranges  0x0000000000001738       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
- .debug_ranges  0x0000000000001798       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
- .debug_ranges  0x00000000000017e0       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
- .debug_ranges  0x0000000000001840       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
- .debug_ranges  0x0000000000001850      0x3d0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
- .debug_ranges  0x0000000000001c20      0x1d8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
- .debug_ranges  0x0000000000001df8      0x3f0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
- .debug_ranges  0x00000000000021e8       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_ranges  0x0000000000002248       0xe8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_ranges  0x0000000000002330       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_ranges  0x0000000000002350       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_ranges  0x0000000000002388       0x58 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
- .debug_ranges  0x00000000000023e0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_ranges  0x0000000000002400       0x30 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_ranges  0x0000000000002430       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_ranges  0x0000000000002458       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_ranges  0x0000000000002480       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_ranges  0x0000000000002518       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+.debug_ranges   0x0000000000000000     0x2558
+ .debug_ranges  0x0000000000000000       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
+ .debug_ranges  0x0000000000000050       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
+ .debug_ranges  0x0000000000000060       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
+ .debug_ranges  0x0000000000000078       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
+ .debug_ranges  0x0000000000000090       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+ .debug_ranges  0x00000000000000e0      0x280 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+ .debug_ranges  0x0000000000000360       0x28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+ .debug_ranges  0x0000000000000388      0x180 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+ .debug_ranges  0x0000000000000508      0x298 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+ .debug_ranges  0x00000000000007a0       0xb8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
+ .debug_ranges  0x0000000000000858       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
+ .debug_ranges  0x00000000000008a0       0x88 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+ .debug_ranges  0x0000000000000928       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+ .debug_ranges  0x00000000000009b8       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+ .debug_ranges  0x00000000000009f8       0xb8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
+ .debug_ranges  0x0000000000000ab0       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+ .debug_ranges  0x0000000000000af8      0x1d8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+ .debug_ranges  0x0000000000000cd0       0x18 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
+ .debug_ranges  0x0000000000000ce8       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
+ .debug_ranges  0x0000000000000d30      0x250 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+ .debug_ranges  0x0000000000000f80      0x100 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+ .debug_ranges  0x0000000000001080       0x78 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+ .debug_ranges  0x00000000000010f8      0x138 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+ .debug_ranges  0x0000000000001230      0x128 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+ .debug_ranges  0x0000000000001358       0xc8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+ .debug_ranges  0x0000000000001420      0x118 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
+ .debug_ranges  0x0000000000001538      0x170 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
+ .debug_ranges  0x00000000000016a8       0xb0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+ .debug_ranges  0x0000000000001758       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+ .debug_ranges  0x00000000000017b8       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+ .debug_ranges  0x0000000000001800       0x60 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
+ .debug_ranges  0x0000000000001860       0x10 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
+ .debug_ranges  0x0000000000001870      0x3d0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+ .debug_ranges  0x0000000000001c40      0x1d8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+ .debug_ranges  0x0000000000001e18      0x3f0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+ .debug_ranges  0x0000000000002208       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_ranges  0x0000000000002268       0xe8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_ranges  0x0000000000002350       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_ranges  0x0000000000002370       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_ranges  0x00000000000023a8       0x58 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
+ .debug_ranges  0x0000000000002400       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_ranges  0x0000000000002420       0x30 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_ranges  0x0000000000002450       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_ranges  0x0000000000002478       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_ranges  0x00000000000024a0       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_ranges  0x0000000000002538       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
 
 .debug_macro    0x0000000000000000    0x3045e
  .debug_macro   0x0000000000000000      0x4e1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
@@ -9641,65 +9641,65 @@ LOAD linker stubs
  .debug_macro   0x000000000002f441      0x51b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
  .debug_macro   0x000000000002f95c      0xb02 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
 
-.debug_line     0x0000000000000000    0x1b6c5
- .debug_line    0x0000000000000000      0xb4c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
- .debug_line    0x0000000000000b4c      0x341 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
- .debug_line    0x0000000000000e8d      0x9c4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
- .debug_line    0x0000000000001851      0x2cb /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
- .debug_line    0x0000000000001b1c      0x84f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
- .debug_line    0x000000000000236b      0xc8b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
- .debug_line    0x0000000000002ff6      0x8a8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
- .debug_line    0x000000000000389e      0xb4c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
- .debug_line    0x00000000000043ea      0xeaa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
- .debug_line    0x0000000000005294      0x697 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
- .debug_line    0x000000000000592b      0x5a0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
- .debug_line    0x0000000000005ecb      0x880 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
- .debug_line    0x000000000000674b      0xcc3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
- .debug_line    0x000000000000740e      0xa41 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
- .debug_line    0x0000000000007e4f      0xbc6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
- .debug_line    0x0000000000008a15      0x5a6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
- .debug_line    0x0000000000008fbb     0x105f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
- .debug_line    0x000000000000a01a      0x9d5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
- .debug_line    0x000000000000a9ef      0x900 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
- .debug_line    0x000000000000b2ef      0xec9 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
- .debug_line    0x000000000000c1b8     0x109e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
- .debug_line    0x000000000000d256      0x981 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
- .debug_line    0x000000000000dbd7      0xc28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
- .debug_line    0x000000000000e7ff      0xcd2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
- .debug_line    0x000000000000f4d1      0xc9e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
- .debug_line    0x000000000001016f      0x64d /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
- .debug_line    0x00000000000107bc      0xcb5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
- .debug_line    0x0000000000011471      0xc20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
- .debug_line    0x0000000000012091      0xb23 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
- .debug_line    0x0000000000012bb4      0xa0a /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
- .debug_line    0x00000000000135be      0xa52 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
- .debug_line    0x0000000000014010      0x2bd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
- .debug_line    0x00000000000142cd      0xbac /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
- .debug_line    0x0000000000014e79     0x1090 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
- .debug_line    0x0000000000015f09     0x12e5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
- .debug_line    0x00000000000171ee      0x405 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_line    0x00000000000175f3      0x579 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_line    0x0000000000017b6c      0x2b1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
- .debug_line    0x0000000000017e1d       0xe3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
- .debug_line    0x0000000000017f00      0x137 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_line    0x0000000000018037       0xbe /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_line    0x00000000000180f5      0x27a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_line    0x000000000001836f      0x2d9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_line    0x0000000000018648      0x2d3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_line    0x000000000001891b      0x24e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
- .debug_line    0x0000000000018b69      0x341 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
- .debug_line    0x0000000000018eaa      0x268 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
- .debug_line    0x0000000000019112      0x29b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_line    0x00000000000193ad      0x335 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_line    0x00000000000196e2      0x37b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_line    0x0000000000019a5d      0x13d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
- .debug_line    0x0000000000019b9a      0x1cf /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_line    0x0000000000019d69      0x72e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_line    0x000000000001a497      0x7ab /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_line    0x000000000001ac42      0x5de /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
- .debug_line    0x000000000001b220       0xa4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
- .debug_line    0x000000000001b2c4      0x297 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
- .debug_line    0x000000000001b55b      0x16a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
+.debug_line     0x0000000000000000    0x1b6d2
+ .debug_line    0x0000000000000000      0xb59 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
+ .debug_line    0x0000000000000b59      0x341 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
+ .debug_line    0x0000000000000e9a      0x9c4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
+ .debug_line    0x000000000000185e      0x2cb /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
+ .debug_line    0x0000000000001b29      0x84f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+ .debug_line    0x0000000000002378      0xc8b /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+ .debug_line    0x0000000000003003      0x8a8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+ .debug_line    0x00000000000038ab      0xb4c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+ .debug_line    0x00000000000043f7      0xeaa /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+ .debug_line    0x00000000000052a1      0x697 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
+ .debug_line    0x0000000000005938      0x5a0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
+ .debug_line    0x0000000000005ed8      0x880 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+ .debug_line    0x0000000000006758      0xcc3 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+ .debug_line    0x000000000000741b      0xa41 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+ .debug_line    0x0000000000007e5c      0xbc6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
+ .debug_line    0x0000000000008a22      0x5a6 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+ .debug_line    0x0000000000008fc8     0x105f /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+ .debug_line    0x000000000000a027      0x9d5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
+ .debug_line    0x000000000000a9fc      0x900 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
+ .debug_line    0x000000000000b2fc      0xec9 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+ .debug_line    0x000000000000c1c5     0x109e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+ .debug_line    0x000000000000d263      0x981 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+ .debug_line    0x000000000000dbe4      0xc28 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+ .debug_line    0x000000000000e80c      0xcd2 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+ .debug_line    0x000000000000f4de      0xc9e /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+ .debug_line    0x000000000001017c      0x64d /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
+ .debug_line    0x00000000000107c9      0xcb5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
+ .debug_line    0x000000000001147e      0xc20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+ .debug_line    0x000000000001209e      0xb23 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+ .debug_line    0x0000000000012bc1      0xa0a /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+ .debug_line    0x00000000000135cb      0xa52 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
+ .debug_line    0x000000000001401d      0x2bd /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
+ .debug_line    0x00000000000142da      0xbac /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+ .debug_line    0x0000000000014e86     0x1090 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+ .debug_line    0x0000000000015f16     0x12e5 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+ .debug_line    0x00000000000171fb      0x405 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_line    0x0000000000017600      0x579 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_line    0x0000000000017b79      0x2b1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+ .debug_line    0x0000000000017e2a       0xe3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x0000000000017f0d      0x137 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_line    0x0000000000018044       0xbe /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000018102      0x27a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x000000000001837c      0x2d9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_line    0x0000000000018655      0x2d3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_line    0x0000000000018928      0x24e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
+ .debug_line    0x0000000000018b76      0x341 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
+ .debug_line    0x0000000000018eb7      0x268 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+ .debug_line    0x000000000001911f      0x29b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_line    0x00000000000193ba      0x335 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_line    0x00000000000196ef      0x37b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_line    0x0000000000019a6a      0x13d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_line    0x0000000000019ba7      0x1cf /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_line    0x0000000000019d76      0x72e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_line    0x000000000001a4a4      0x7ab /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_line    0x000000000001ac4f      0x5de /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+ .debug_line    0x000000000001b22d       0xa4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
+ .debug_line    0x000000000001b2d1      0x297 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_line    0x000000000001b568      0x16a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
 
 .debug_str      0x0000000000000000    0x5f737
  .debug_str     0x0000000000000000    0x572c1 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
@@ -9996,59 +9996,59 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000b62       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
 
-.debug_frame    0x0000000000000000     0x1e68
- .debug_frame   0x0000000000000000       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
- .debug_frame   0x0000000000000040       0x20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
- .debug_frame   0x0000000000000060       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
- .debug_frame   0x0000000000000090       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
- .debug_frame   0x00000000000000d0       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
- .debug_frame   0x0000000000000120       0xd0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
- .debug_frame   0x00000000000001f0       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
- .debug_frame   0x0000000000000248       0xb4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
- .debug_frame   0x00000000000002fc      0x124 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
- .debug_frame   0x0000000000000420       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
- .debug_frame   0x0000000000000468       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
- .debug_frame   0x00000000000004a0       0xd4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
- .debug_frame   0x0000000000000574      0x140 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
- .debug_frame   0x00000000000006b4       0x80 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
- .debug_frame   0x0000000000000734       0x78 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
- .debug_frame   0x00000000000007ac       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
- .debug_frame   0x000000000000083c      0x1b0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
- .debug_frame   0x00000000000009ec       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
- .debug_frame   0x0000000000000a24       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
- .debug_frame   0x0000000000000a60      0x138 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
- .debug_frame   0x0000000000000b98      0x174 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
- .debug_frame   0x0000000000000d0c       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
- .debug_frame   0x0000000000000d9c       0xb8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
- .debug_frame   0x0000000000000e54       0xf8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
- .debug_frame   0x0000000000000f4c       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
- .debug_frame   0x0000000000000fdc       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
- .debug_frame   0x0000000000001018       0xcc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
- .debug_frame   0x00000000000010e4       0xa4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
- .debug_frame   0x0000000000001188       0x68 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
- .debug_frame   0x00000000000011f0       0xa8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
- .debug_frame   0x0000000000001298       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
- .debug_frame   0x00000000000012d4       0x20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
- .debug_frame   0x00000000000012f4       0xfc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
- .debug_frame   0x00000000000013f0      0x130 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
- .debug_frame   0x0000000000001520      0x20c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
- .debug_frame   0x000000000000172c       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_frame   0x0000000000001794      0x124 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_frame   0x00000000000018b8       0x54 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
- .debug_frame   0x000000000000190c       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000001938       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000001970       0x54 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000000000019c4       0x30 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000000000019f4       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
- .debug_frame   0x0000000000001a70       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
- .debug_frame   0x0000000000001ab0       0x8c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
- .debug_frame   0x0000000000001b3c       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_frame   0x0000000000001b7c       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_frame   0x0000000000001ba8       0x6c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_frame   0x0000000000001c14       0x30 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000001c44       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000001c7c       0xbc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_frame   0x0000000000001d38       0x6c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000001da4       0x64 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
- .debug_frame   0x0000000000001e08       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000001e48       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
+.debug_frame    0x0000000000000000     0x1e6c
+ .debug_frame   0x0000000000000000       0x44 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/application_ultrasonic_test/main.o
+ .debug_frame   0x0000000000000044       0x20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/auto_init/auto_init.o
+ .debug_frame   0x0000000000000064       0x30 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/board_common_init/board_common.o
+ .debug_frame   0x0000000000000094       0x40 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/assert.o
+ .debug_frame   0x00000000000000d4       0x50 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/init.o
+ .debug_frame   0x0000000000000124       0xd0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/mutex.o
+ .debug_frame   0x00000000000001f4       0x58 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o
+ .debug_frame   0x000000000000024c       0xb4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/sched.o
+ .debug_frame   0x0000000000000300      0x124 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/core/thread.o
+ .debug_frame   0x0000000000000424       0x48 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/cortexm_init.o
+ .debug_frame   0x000000000000046c       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/panic.o
+ .debug_frame   0x00000000000004a4       0xd4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/thread_arch.o
+ .debug_frame   0x0000000000000578      0x140 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cortexm_common/vectors_cortexm.o
+ .debug_frame   0x00000000000006b8       0x80 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_common.o
+ .debug_frame   0x0000000000000738       0x78 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/cpu/cpu_init.o
+ .debug_frame   0x00000000000007b0       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o
+ .debug_frame   0x0000000000000840      0x1b0 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o
+ .debug_frame   0x00000000000009f0       0x38 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init_leds.o
+ .debug_frame   0x0000000000000a28       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph_common/init.o
+ .debug_frame   0x0000000000000a64      0x138 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/gpio_all.o
+ .debug_frame   0x0000000000000b9c      0x174 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/i2c_2.o
+ .debug_frame   0x0000000000000d10       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/pm.o
+ .debug_frame   0x0000000000000da0       0xb8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/timer.o
+ .debug_frame   0x0000000000000e58       0xf8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/periph/uart.o
+ .debug_frame   0x0000000000000f50       0x90 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/pm_layered/pm.o
+ .debug_frame   0x0000000000000fe0       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/ps/ps.o
+ .debug_frame   0x000000000000101c       0xcc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/shell/shell.o
+ .debug_frame   0x00000000000010e8       0xa4 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o
+ .debug_frame   0x000000000000118c       0x68 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o
+ .debug_frame   0x00000000000011f4       0xa8 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_common.o
+ .debug_frame   0x000000000000129c       0x3c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_clk/stmclk_f2f4f7.o
+ .debug_frame   0x00000000000012d8       0x20 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/stm32_vectors/STM32F401xE.o
+ .debug_frame   0x00000000000012f8       0xfc /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/tsrb/tsrb.o
+ .debug_frame   0x00000000000013f4      0x130 /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer_core.o
+ .debug_frame   0x0000000000001524      0x20c /home/gabriele/Desktop/Iot-Group-Project/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o
+ .debug_frame   0x0000000000001730       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000001798      0x124 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000018bc       0x54 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000001910       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x000000000000193c       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001974       0x54 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000019c8       0x30 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000019f8       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000001a74       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-puts.o)
+ .debug_frame   0x0000000000001ab4       0x8c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000001b40       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000001b80       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000001bac       0x6c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000000000001c18       0x30 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001c48       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000001c80       0xbc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000000000001d3c       0x6c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000001da8       0x64 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000001e0c       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000001e4c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
