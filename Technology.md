@@ -56,7 +56,7 @@ All the sensors are chosen according to the suitability of the project.
 
 ### MQTT Broker (AWS Core IOT)
 
-Sensor datas are transmitted through a message broker to the IoT core through publish
+Sensor data are transmitted through a message broker to the IoT core through publish
 method for data preprocessing. Lightweight and is suitable to low bandwidth exchange of data.
 
 ### ECLIPSE MOSQUITTO
@@ -110,7 +110,7 @@ A communication channel that will be able to request data from the Cloud through
 ### UBUNTU Server
 
 An Ubuntu server will be hosted on the AWS cloud to run the MQTT broker service and
-along with Node js Server for data visualisation.
+along with Node js Server for data visualization.
 
 ### JSON rest API
 
