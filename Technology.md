@@ -39,8 +39,8 @@ All the data will be presented in visual form through a web based dashboard whic
 ### SENSORS
 All the sensors are chosen according to the suitability of the project.
 
-* Motion Sensor
-* Ultrasonic Sensor
+* Motion Sensor (HC-SR501)
+* Ultrasonic Sensor (SRF05)
 
 ### ACTUATORS
 
