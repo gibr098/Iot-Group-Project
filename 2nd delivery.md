@@ -28,7 +28,7 @@ We managed to experiment with a first demo of a basic configuration, that sent t
 
 ![1st config.jpg](https://github.com/gibr098/Iot-Group-Project/blob/main/second_delivery/1st%20config.jpg)
 
-##Functionalities missing:
+## Functionalities missing:
 A configuration capable of working with people that do not come in in a straigh line
 
 ## Evaluation done:
