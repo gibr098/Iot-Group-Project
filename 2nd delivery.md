@@ -26,7 +26,7 @@ The changes made to the concept are pretty significant, and with them there were
 
 We managed to experiment with a first demo of a basic configuration, that sent the data to the mqtt broker and then the iot core, to correctly identify a person entering or leaving the room.
 
-#image
+![1st config.jpg](https://github.com/gibr098/Iot-Group-Project/blob/main/second_delivery/1st%20config.jpg)
 
 ##Functionalities missing:
 A configuration capable of working with people that do not come in in a straigh line
