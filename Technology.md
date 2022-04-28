@@ -27,7 +27,7 @@ processed data is displayed on **Dashboard** (or possibly on a **mobile app**).
 
 ### IoT Architecture
 
-![IotArchitecture](https://user-images.githubusercontent.com/30042823/159380556-12a033e7-b0a5-4973-b486-69c106e3e95b.png)
+![Structure1](https://user-images.githubusercontent.com/101864268/165848425-efbebd44-2f45-41bc-998e-4c6b47a3c8e2.png)
 
 ### System Architecture
 
