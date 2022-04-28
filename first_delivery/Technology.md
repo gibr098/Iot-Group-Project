@@ -7,7 +7,7 @@
 
 ### Environmental monitoring System
 
-**Environmental Monitoring System** is the main component of the project. The main purpose of this system is to collect environmental data from the sensors placed in feasible location of the building and send it through the **Ground Server** to the cloud server and then take actions by sending commands to suitable actuators.
+**Environmental Monitoring System** is the main component of the project. The main purpose of this system is to collect environmantal data from the sensors placed in feasible location of the building and send it through the **Ground Server** to the cloud server and then take actions by sending commands to suitable actuators.
 
 ### Ground Server
 
@@ -33,14 +33,15 @@ processed data is displayed on **Dashboard** (or possibly on a **mobile app**).
 
 ![system_architecture](https://user-images.githubusercontent.com/30042823/159380633-c53035a8-05a2-46e0-ab19-4239ae35ea9c.png)
 
-The main purpose of this IoT device is to monitor the occupancy of the building giving an accurate estimation of how many people get inside and outside its rooms.
+The main purpose of this IoT device is to monitor environmental aspects of the building Workspace occupancy, Parking Space availability and Energy port availability. For workspace occupancy, depending on the noise level the system will determine the crowdedness of the space. For parking spot availability, with light and pressure sensors placed in every spot of the parking lot the sensors will send the light density and prssure level data to the ground server. LED lights will be used as feedback for available space and the available parking spot. 
 All the data will be presented in visual form through a web based dashboard which will be hosted on the cloud platform.
 
 ### SENSORS
 All the sensors are chosen according to the suitability of the project.
 
-* Motion Sensor
-* Ultrasonic Sensor
+* Sound Sensor (& Motion Sensor - under consideration)
+* Light Sensor
+* Pressure Sensor
 
 ### ACTUATORS
 
@@ -49,7 +50,9 @@ All the sensors are chosen according to the suitability of the project.
 
 ### COMMUNICATION
 
-* Wifi Module (ESP-01S ESP8266) 
+* Wifi Module (ESP-01S ESP8266) - Under Consideration 
+* LoRaWan - Under Consideration 
+
 
 
 ## MESSAGE BROKER
