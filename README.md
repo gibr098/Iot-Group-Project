@@ -8,7 +8,7 @@ R.O.M. is an interactive map of a smart building that allows people frequently v
 - [Rishiraj Singh Salam](https://www.linkedin.com/in/rishiraj-salam-78ba32151/)
 
 ## Documents
-- [Concept](Concept/Concept.md)
+- [Concept](Concept.md)
 - [Technology](Technology.md)
 - [Evaluation](Evaluation.md)
 
