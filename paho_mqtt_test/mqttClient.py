@@ -1,5 +1,6 @@
 # run: pip install paho-mqtt 
 # paho mqtt
+from operator import index
 import paho.mqtt.client as paho
 import os
 import ssl
@@ -39,15 +40,41 @@ mqttc.loop_start()
 
 # TODO: update the data reading: take input data from command promt
 
-inputData = str(sys.argv[1])
-formattedInput = '{'+'"sensor_data":'+'"'+inputData+'"'+'}'
+# sample cmd input
+# python3 mqttClient.py {a,b,c}
+# 3 input args for 3 sensors
+# input arg syntax {data1, data2, date3}
+# actual output ['mqttClient.py', 'data1', 'data2','data3']
+# expected output ['sensor1','sensor2',''sonsor3]
+# expected formated string : {
+#     "sensor1": "data1",,
+#     "sesor2": "data2",
+#     "sensor3": "data3" 
+# }
 
-# print(inputData)
+inputArg = sys.argv
+
+formatedString='{'
+
+for index,val in enumerate(inputArg):
+    if index == 1:
+        formatedString += '"sensor1":'+'"'+str(val)+'",'
+    if index == 2:
+        formatedString += '"sensor2":'+'"'+str(val)+'",'
+    if index == 3:
+        formatedString += '"sensor3":'+'"'+str(val)+'"}'
+    
+# print(formatedString)
+        
+
+# formattedInput = '{'+'"sensor_data":'+'"'+inputData+'"'+'}'
+
+# # print(inputData)
 
 while 1==1:
     sleep(0.5)
     if connflag == True:
-        mqttc.publish("rom_data", formattedInput, qos=1)
-        print("Msg sent: Sensor data -> "+ formattedInput)
+        mqttc.publish("rom_data", formatedString, qos=1)
+        print("Msg sent: Sensor data -> "+ formatedString)
     else:
         print("Waiting for connection..")
