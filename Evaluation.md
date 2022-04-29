@@ -20,7 +20,7 @@ Due to the nature of our system, we should evaluate the maximum load that our co
 
 Our system is entirely located within an already built place and so is natural to think that the energy supply of the building will also power up our system.
 * **GOAL** What is ultimately our objective?
-   * We want to be sure that the deploymento of the sistem in the entire building (and not only in a single room) costs as low as possible in terms of power consumption and maintainance.
+   * We want to be sure that the deployment of the sistem in the entire building (and not only in a single room) costs as low as possible in terms of power consumption and maintainance.
 
 ## End-user point of view
 ### How we intend to evaluate the user experience
