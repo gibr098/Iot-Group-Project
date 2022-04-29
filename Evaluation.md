@@ -25,10 +25,10 @@ Our system is entirely located within an already built place and so is natural t
 ## End-user point of view
 ### How we intend to evaluate the user experience
 
-The user experience is mainly tied to the responsiveness and the accuracy of the http endpoint.
+The user experience is mainly tied to the responsiveness and the accuracy in estimating the occupancy of a room.
 
 * **ACCURACY** How to achieve accuracy?
-   * In order to achieve a good accuracy we must impose a (altough lenient) real time constraint on our system, so that the information received are not outdated
+   * In order to make the system be much precise as possible in counting the people that enter a room we can work mainly on two aspects: the first is the efficency of the algorithm that is going to process the data obtained by the sensors and output the correct number of people; the second aspect is the phisical confuguration of the system, that is how the sensors should be placed outside and inside the room in order to achieve a optimal collection of the data
 
 * **RESPONSIVENESS** How to achieve responsiveness?
    * To achieve it we must look at the load of the data exchanged and through several testing understand the limit of our system 
