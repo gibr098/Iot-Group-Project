@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/srf04/srf04.o: \
  /home/gabriele/RIOT/drivers/srf04/srf04.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/drivers/include/srf04.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
@@ -46,6 +46,7 @@
  /home/gabriele/RIOT/core/include/msg.h \
  /home/gabriele/RIOT/core/include/sched.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/core/include/macros/units.h \
  /home/gabriele/RIOT/cpu/stm32/include/periph/f4/periph_cpu.h \
@@ -97,11 +98,11 @@
  /home/gabriele/RIOT/sys/include/xtimer/tick_conversion.h \
  /home/gabriele/RIOT/sys/include/div.h \
  /home/gabriele/RIOT/sys/include/xtimer/implementation.h \
- /home/gabriele/RIOT/drivers/include/periph/timer.h \
+ /home/gabriele/RIOT/sys/include/ztimer.h \
  /home/gabriele/RIOT/drivers/srf04/include/srf04_params.h \
  /home/gabriele/RIOT/core/include/debug.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/drivers/include/srf04.h:
 
@@ -213,6 +214,8 @@
 
 /home/gabriele/RIOT/core/include/thread_config.h:
 
+/home/gabriele/RIOT/core/include/thread_flags.h:
+
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 
 /home/gabriele/RIOT/core/include/macros/units.h:
@@ -315,7 +318,7 @@
 
 /home/gabriele/RIOT/sys/include/xtimer/implementation.h:
 
-/home/gabriele/RIOT/drivers/include/periph/timer.h:
+/home/gabriele/RIOT/sys/include/ztimer.h:
 
 /home/gabriele/RIOT/drivers/srf04/include/srf04_params.h:
 

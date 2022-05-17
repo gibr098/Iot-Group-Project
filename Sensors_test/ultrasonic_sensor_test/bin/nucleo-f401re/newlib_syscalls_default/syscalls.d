@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/newlib_syscalls_default/syscalls.o: \
  /home/gabriele/RIOT/sys/newlib_syscalls_default/syscalls.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /usr/include/newlib/unistd.h /usr/include/newlib/sys/unistd.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -51,6 +51,7 @@
  /home/gabriele/RIOT/core/include/msg.h \
  /home/gabriele/RIOT/core/include/sched.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/boards/common/nucleo64/include/board.h \
  /home/gabriele/RIOT/boards/common/nucleo/include/board_nucleo.h \
@@ -111,9 +112,9 @@
  /home/gabriele/RIOT/core/include/mutex.h \
  /home/gabriele/RIOT/sys/include/xtimer/tick_conversion.h \
  /home/gabriele/RIOT/sys/include/xtimer/implementation.h \
- /home/gabriele/RIOT/drivers/include/periph/timer.h
+ /home/gabriele/RIOT/sys/include/ztimer.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /usr/include/newlib/unistd.h:
 
@@ -249,6 +250,8 @@
 
 /home/gabriele/RIOT/core/include/thread_config.h:
 
+/home/gabriele/RIOT/core/include/thread_flags.h:
+
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 
 /home/gabriele/RIOT/boards/common/nucleo64/include/board.h:
@@ -373,4 +376,4 @@
 
 /home/gabriele/RIOT/sys/include/xtimer/implementation.h:
 
-/home/gabriele/RIOT/drivers/include/periph/timer.h:
+/home/gabriele/RIOT/sys/include/ztimer.h:

@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/core/panic.o: \
  /home/gabriele/RIOT/core/panic.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/kernel_defines.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -43,6 +43,7 @@
  /home/gabriele/RIOT/core/include/msg.h \
  /home/gabriele/RIOT/core/include/sched.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/core/include/panic.h \
  /home/gabriele/RIOT/drivers/include/periph/pm.h \
@@ -76,7 +77,7 @@
  /home/gabriele/RIOT/core/include/log.h \
  /home/gabriele/RIOT/sys/include/ps.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/kernel_defines.h:
 
@@ -181,6 +182,8 @@
 /home/gabriele/RIOT/core/include/sched.h:
 
 /home/gabriele/RIOT/core/include/thread_config.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 

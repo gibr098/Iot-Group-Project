@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/malloc_thread_safe/malloc_wrappers.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/malloc_thread_safe/malloc_wrappers.o: \
  /home/gabriele/RIOT/sys/malloc_thread_safe/malloc_wrappers.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -38,10 +38,11 @@
  /usr/include/newlib/sys/_intsup.h \
  /home/gabriele/RIOT/core/include/native_sched.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/core/include/irq.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /usr/include/newlib/string.h:
 
@@ -132,6 +133,8 @@
 /home/gabriele/RIOT/core/include/native_sched.h:
 
 /home/gabriele/RIOT/core/include/thread_config.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 

@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/xtimer/xtimer.o: \
  /home/gabriele/RIOT/sys/xtimer/xtimer.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
@@ -41,6 +41,7 @@
  /home/gabriele/RIOT/build/stm32/cmsis/f4/Include/system_stm32f4xx.h \
  /home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/core/include/irq.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/irq_arch.h \
@@ -99,14 +100,15 @@
  /home/gabriele/RIOT/sys/include/xtimer/tick_conversion.h \
  /home/gabriele/RIOT/sys/include/div.h \
  /home/gabriele/RIOT/sys/include/xtimer/implementation.h \
- /home/gabriele/RIOT/drivers/include/periph/timer.h \
+ /home/gabriele/RIOT/sys/include/ztimer.h \
  /home/gabriele/RIOT/sys/include/atomic_utils.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/atomic_utils_arch.h \
  /home/gabriele/RIOT/sys/include/bit.h \
  /home/gabriele/RIOT/core/include/list.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/core/include/debug.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 
@@ -201,6 +203,8 @@
 /home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h:
 
 /home/gabriele/RIOT/core/include/thread_config.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 
@@ -322,7 +326,7 @@
 
 /home/gabriele/RIOT/sys/include/xtimer/implementation.h:
 
-/home/gabriele/RIOT/drivers/include/periph/timer.h:
+/home/gabriele/RIOT/sys/include/ztimer.h:
 
 /home/gabriele/RIOT/sys/include/atomic_utils.h:
 
@@ -331,5 +335,7 @@
 /home/gabriele/RIOT/sys/include/bit.h:
 
 /home/gabriele/RIOT/core/include/list.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/core/include/debug.h:

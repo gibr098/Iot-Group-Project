@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/core/msg.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/core/msg.o: \
  /home/gabriele/RIOT/core/msg.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -34,7 +34,9 @@
  /home/gabriele/RIOT/build/stm32/cmsis/f4/Include/system_stm32f4xx.h \
  /home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/core/include/irq.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/irq_arch.h \
  /home/gabriele/RIOT/core/include/cib.h \
@@ -50,7 +52,7 @@
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /home/gabriele/RIOT/core/include/thread.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 
@@ -126,7 +128,11 @@
 
 /home/gabriele/RIOT/core/include/thread_config.h:
 
+/home/gabriele/RIOT/core/include/thread_flags.h:
+
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/core/include/irq.h:
 

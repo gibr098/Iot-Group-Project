@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/isrpipe/isrpipe.o: \
  /home/gabriele/RIOT/sys/isrpipe/isrpipe.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/sys/include/isrpipe.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /home/gabriele/RIOT/core/include/mutex.h \
@@ -31,6 +31,7 @@
  /home/gabriele/RIOT/build/stm32/cmsis/f4/Include/system_stm32f4xx.h \
  /home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/core/include/irq.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/irq_arch.h \
@@ -38,7 +39,7 @@
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/core/include/irq.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/sys/include/isrpipe.h:
 
@@ -107,6 +108,8 @@
 /home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h:
 
 /home/gabriele/RIOT/core/include/thread_config.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 

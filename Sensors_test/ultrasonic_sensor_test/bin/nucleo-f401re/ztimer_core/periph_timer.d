@@ -1,6 +1,6 @@
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/ztimer_core/periph_timer.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/ztimer_core/periph_timer.o: \
  /home/gabriele/RIOT/sys/ztimer/periph_timer.c \
- /home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/core/include/irq.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
@@ -37,6 +37,7 @@
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/core/include/msg.h \
  /home/gabriele/RIOT/core/include/thread_config.h \
+ /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
  /home/gabriele/RIOT/core/include/irq.h \
  /home/gabriele/RIOT/core/include/rmutex.h \
@@ -88,7 +89,7 @@
  /home/gabriele/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h \
  /home/gabriele/RIOT/boards/common/stm32/include/cfg_timer_tim5.h
 
-/home/gabriele/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Sensors_test/ultrasonic_sensor_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 
@@ -169,6 +170,8 @@
 /home/gabriele/RIOT/core/include/msg.h:
 
 /home/gabriele/RIOT/core/include/thread_config.h:
+
+/home/gabriele/RIOT/core/include/thread_flags.h:
 
 /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
 
