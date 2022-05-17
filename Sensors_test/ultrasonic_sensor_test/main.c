@@ -21,7 +21,7 @@
 
 void send(int data){
 
- printf("FUNCTION SENDD\n\n\n\n");
+ printf("Function Send\n\n\n\n");
  char buf[100];
  sprintf(buf,"python3 mqttClient.py %d", data);
  system(buf);
@@ -110,18 +110,19 @@ int main(void){
 
     read_distance(trigger_pin);
 
-    //gpio_init(trigger_pin2, GPIO_OUT);
-    //gpio_init_int(echo_pin2, GPIO_IN, GPIO_BOTH, &echo_cb2, NULL);
+    gpio_init(trigger_pin2, GPIO_OUT);
+    gpio_init_int(echo_pin2, GPIO_IN, GPIO_BOTH, &echo_cb2, NULL);
 
-    //read_distance(trigger_pin2);
+    read_distance(trigger_pin2);
 
     int distance=0;
     distance= read_distance(trigger_pin);
-    printf("DISTANCEEEEEEEEEEEEE: %d\n", distance);
+
+    int distance2=0;
+    distance2= read_distance(trigger_pin2);
 
    
-    send(distance);
-    //int distance2=0;
+    //send(distance);
 
     while(1){
 
@@ -131,8 +132,8 @@ int main(void){
         //send(distance);
 
 
-        //distance2 = read_distance(trigger_pin2);
-        //printf("Distance of ultrasonic 2: %d cm\n", distance2);
+        distance2 = read_distance(trigger_pin2);
+        printf("Distance of ultrasonic 2: %d cm\n", distance2);
 
     
     }
