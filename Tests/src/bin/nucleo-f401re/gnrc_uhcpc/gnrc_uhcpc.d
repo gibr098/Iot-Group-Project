@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/gnrc_uhcpc/gnrc_uhcpc.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/gnrc_uhcpc/gnrc_uhcpc.o: \
  /home/gabriele/RIOT/sys/net/gnrc/application_layer/uhcpc/gnrc_uhcpc.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/kernel_defines.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -136,7 +136,7 @@
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
  /usr/include/newlib/sys/stdio.h /home/gabriele/RIOT/sys/include/fmt.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/kernel_defines.h:
 

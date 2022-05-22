@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/eui_provider/eui_provider.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/eui_provider/eui_provider.o: \
  /home/gabriele/RIOT/sys/net/link_layer/eui_provider/eui_provider.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/sys/net/link_layer/eui_provider/include/eui48_provider_params.h \
  /home/gabriele/RIOT/sys/include/net/eui_provider.h \
@@ -32,7 +32,7 @@
  /home/gabriele/RIOT/sys/include/net/eui48.h \
  /home/gabriele/RIOT/sys/include/net/eui64.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

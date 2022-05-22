@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/inet_csum/inet_csum.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/inet_csum/inet_csum.o: \
  /home/gabriele/RIOT/sys/net/crosslayer/inet_csum/inet_csum.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
  /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
@@ -44,7 +44,7 @@
  /home/gabriele/RIOT/core/include/thread_flags.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /usr/include/newlib/inttypes.h:
 

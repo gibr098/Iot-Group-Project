@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/gnrc_netif/gnrc_netif.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/gnrc_netif/gnrc_netif.o: \
  /home/gabriele/RIOT/sys/net/gnrc/netif/gnrc_netif.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
@@ -127,7 +127,7 @@
  /home/gabriele/RIOT/sys/include/net/gnrc/tx_sync.h \
  /home/gabriele/RIOT/core/include/debug.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

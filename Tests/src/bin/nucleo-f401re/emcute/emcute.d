@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/emcute/emcute.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/emcute/emcute.o: \
  /home/gabriele/RIOT/sys/net/application_layer/emcute/emcute.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h /usr/include/newlib/string.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -175,7 +175,7 @@
  /home/gabriele/RIOT/sys/net/application_layer/emcute/emcute_internal.h \
  /home/gabriele/RIOT/core/include/debug.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

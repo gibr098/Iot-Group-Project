@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/periph_common/timer.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/periph_common/timer.o: \
  /home/gabriele/RIOT/drivers/periph_common/timer.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/drivers/include/periph/timer.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
@@ -80,7 +80,7 @@
  /home/gabriele/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h \
  /home/gabriele/RIOT/boards/common/stm32/include/cfg_timer_tim5.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/drivers/include/periph/timer.h:
 

@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/posix_inet/inet.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/posix_inet/inet.o: \
  /home/gabriele/RIOT/sys/posix/inet/inet.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/sys/posix/include/arpa/inet.h \
  /home/gabriele/RIOT/sys/include/net/af.h \
  /home/gabriele/RIOT/sys/posix/include/sys/bytes.h \
@@ -33,7 +33,7 @@
  /home/gabriele/RIOT/sys/include/net/ipv4/addr.h \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/sys/posix/include/arpa/inet.h:
 

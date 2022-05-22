@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/uhcpc/uhcpc.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/uhcpc/uhcpc.o: \
  /home/gabriele/RIOT/sys/net/application_layer/uhcp/uhcpc.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/sys/posix/include/arpa/inet.h \
  /home/gabriele/RIOT/sys/include/net/af.h \
  /home/gabriele/RIOT/sys/posix/include/sys/bytes.h \
@@ -180,7 +180,7 @@
  /home/gabriele/RIOT/sys/include/xtimer/implementation.h \
  /home/gabriele/RIOT/sys/include/ztimer.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/sys/posix/include/arpa/inet.h:
 

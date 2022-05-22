@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/ztimer_core/periph_timer.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/ztimer_core/periph_timer.o: \
  /home/gabriele/RIOT/sys/ztimer/periph_timer.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/core/include/irq.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
@@ -89,7 +89,7 @@
  /home/gabriele/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h \
  /home/gabriele/RIOT/boards/common/stm32/include/cfg_timer_tim5.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

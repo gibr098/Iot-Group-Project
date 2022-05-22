@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/board_common_init/board_common.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/board_common_init/board_common.o: \
  /home/gabriele/RIOT/boards/common/init/board_common.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/boards/common/nucleo64/include/board.h \
  /home/gabriele/RIOT/boards/common/nucleo/include/board_nucleo.h \
  /home/gabriele/RIOT/cpu/cortexm_common/include/cpu.h \
@@ -87,7 +87,7 @@
  /home/gabriele/RIOT/drivers/include/periph/pwm.h \
  /home/gabriele/RIOT/drivers/include/periph/gpio.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/boards/common/nucleo64/include/board.h:
 

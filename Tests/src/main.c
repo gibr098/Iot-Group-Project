@@ -1,3 +1,21 @@
+/*
+INSTRUCTIONS:
+
+1. Run the local broker in mosquitto.rsmb/rsmb launch "./src/broker_mqtts config.conf"
+
+2. Create interafaces with sudo ./RIOT/dist/tools/tapsetup/tapsetup -c 2
+
+3. In the same directory run "sudo ip a a 2000:2::1 dev tapbr0"
+
+4. Launch the application with "make all flash term"
+
+5. In /RIOT/dist/tools/tapsetup/tapsetup run "sudo ip a a 2000:2::1 dev tap0"
+
+6. Push the reset button on the nucleo board
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -22,6 +40,7 @@
 #define EMCUTE_PORT 1885
 #define EMCUTE_PRIO (THREAD_PRIORITY_MAIN - 1)
 #define BROKER_ADDRESS      "2000:2::1"
+#define TOPIC          "rom_data"
 
 static char stack[THREAD_STACKSIZE_DEFAULT];
 static msg_t queue[8];
@@ -114,7 +133,7 @@ static int send(int data){
  
 
   // name of the topic
-  char topic[32];
+  //char topic[32];
   
   // json that it will published
   char json[128];
@@ -126,7 +145,7 @@ static int send(int data){
     sprintf(json, "{\"distance\": \"%d\"}", data);
 
     // publish to the topic
-    pub(topic, json, 0);
+    pub( TOPIC, json, 0);
 
     // it disconnects from the gateway
     discon();
@@ -136,7 +155,7 @@ static int send(int data){
 
   return 0;
 }
-
+/*
 
 //ultrasonic 1
 gpio_t trigger_pin = GPIO_PIN(PORT_B, 5); // D4 -> trigger
@@ -190,9 +209,9 @@ int read_distance(gpio_t triggerPin){
 	xtimer_msleep(100);
 	return echo_time/58;
 }
-
-
 */
+
+
 int main(void){
 
     /* the main thread needs a msg queue to be able to run `ping6`*/
@@ -207,7 +226,7 @@ int main(void){
     _gnrc_netif_config(4, arg);
 
 
-
+/*
     // pin sensor initialization
     gpio_init(trigger_pin, GPIO_OUT);
     gpio_init_int(echo_pin, GPIO_IN, GPIO_BOTH, &echo_cb, NULL);
@@ -224,12 +243,12 @@ int main(void){
 
     int distance2=0;
     distance2= read_distance(trigger_pin2);
-
-    //int distance=45;
+*/
+    int distance=45;
     
 
     while(1){
-
+/*
         distance = read_distance(trigger_pin);
         printf("Distance of ultrasonic 1: %d cm\n", distance);
         send(distance);
@@ -238,6 +257,9 @@ int main(void){
         distance2 = read_distance(trigger_pin2);
         printf("Distance of ultrasonic 2: %d cm\n", distance2);
         send(distance2);
+        */
+       distance+=1;
+       send(distance);
     
     }
 

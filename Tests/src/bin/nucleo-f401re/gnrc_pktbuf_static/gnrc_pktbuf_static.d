@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/gnrc_pktbuf_static/gnrc_pktbuf_static.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/gnrc_pktbuf_static/gnrc_pktbuf_static.o: \
  /home/gabriele/RIOT/sys/net/gnrc/pktbuf_static/gnrc_pktbuf_static.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h /usr/include/newlib/errno.h \
  /usr/include/newlib/sys/errno.h /usr/include/newlib/sys/reent.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
@@ -63,7 +63,7 @@
  /home/gabriele/RIOT/sys/net/gnrc/pktbuf_static/include/pktbuf_static.h \
  /home/gabriele/RIOT/core/include/debug.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

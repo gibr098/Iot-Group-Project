@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/gnrc_netif_hdr/gnrc_netif_hdr.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/gnrc_netif_hdr/gnrc_netif_hdr.o: \
  /home/gabriele/RIOT/sys/net/gnrc/netif/hdr/gnrc_netif_hdr.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/sys/include/net/gnrc/netif/hdr.h \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
@@ -94,7 +94,7 @@
  /home/gabriele/RIOT/sys/include/net/gnrc/neterr.h \
  /home/gabriele/RIOT/sys/include/utlist.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

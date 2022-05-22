@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/pm_layered/pm.o: \
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/pm_layered/pm.o: \
  /home/gabriele/RIOT/sys/pm_layered/pm.c \
- /home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /home/gabriele/RIOT/core/include/assert.h \
  /home/gabriele/RIOT/boards/common/nucleo64/include/board.h \
  /home/gabriele/RIOT/boards/common/nucleo/include/board_nucleo.h \
@@ -95,7 +95,7 @@
  /home/gabriele/RIOT/core/include/debug.h \
  /home/gabriele/RIOT/core/include/thread.h
 
-/home/gabriele/Desktop/Iot-Group-Project/test/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/gabriele/Desktop/Iot-Group-Project/Tests/src/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /home/gabriele/RIOT/core/include/assert.h:
 

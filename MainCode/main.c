@@ -9,7 +9,7 @@ INSTRUCTIONS:
 
 4. Launch the application with "make all flash term"
 
-5. In /RIOT/dist/tools/tapsetup/tapsetup run "sudo ip a a 2000:2::1 dev tapbr0""
+5. In /RIOT/dist/tools/tapsetup/tapsetup run "sudo ip a a 2000:2::1 dev tap0""
 
 6. Push the reset button on the nucleo board
 

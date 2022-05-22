@@ -8,12 +8,11 @@ from time import sleep
 from random import uniform
 import sys
 
-connflag = False
+
 
 def on_connect(client, userdata, flags, rc):
-    global connflag
-    connflag = True
     print("Connection returned result:" + str(rc))
+    client.subscribe("rom_data")
 
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
