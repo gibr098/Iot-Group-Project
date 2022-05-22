@@ -12,6 +12,7 @@ INSTRUCTIONS:
 5. In /RIOT/dist/tools/tapsetup/tapsetup run "sudo ip a a 2000:2::1 dev tapbr0""
 
 6. Push the reset button on the nucleo board
+
 */
 
 
@@ -143,7 +144,8 @@ static int send(int data){
     sprintf(json, "{\"distance\": \"%d\"}", data);
 
     // publish to the topic
-    pub(topic, json, 0);
+    //pub(topic, json, 0);
+    pub("rom_data", json, 0);
 
     // it disconnects from the gateway
     discon();
