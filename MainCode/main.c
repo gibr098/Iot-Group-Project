@@ -132,7 +132,7 @@ static int send(int data){
  
 
   // name of the topic
-  char topic[32];
+  //char topic[32];
   
   // json that it will published
   char json[128];
@@ -150,7 +150,7 @@ static int send(int data){
     // it disconnects from the gateway
     discon();
 
-    xtimer_sleep(3);
+    //xtimer_sleep(3);
 
 
   return 0;
@@ -211,7 +211,7 @@ int read_distance(gpio_t triggerPin){
 }
 
 
-*/
+
 int main(void){
 
     /* the main thread needs a msg queue to be able to run `ping6`*/

@@ -1,17 +1,17 @@
-/home/gabriele/Desktop/Iot-Group-Project/sensors_test/bin/nucleo-f401re/core/clist.o: \
- /home/gabriele/RIOT/core/clist.c \
- /home/gabriele/Desktop/Iot-Group-Project/sensors_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
- /home/gabriele/RIOT/core/include/clist.h \
+/home/rishirajsalam/projects/Iot-Group-Project/MainCode/bin/nucleo-f401re/core/clist.o: \
+ /home/rishirajsalam/RIOT/core/clist.c \
+ /home/rishirajsalam/projects/Iot-Group-Project/MainCode/bin/nucleo-f401re/riotbuild/riotbuild.h \
+ /home/rishirajsalam/RIOT/core/include/clist.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
- /home/gabriele/RIOT/core/include/list.h
+ /home/rishirajsalam/RIOT/core/include/list.h
 
-/home/gabriele/Desktop/Iot-Group-Project/sensors_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/rishirajsalam/projects/Iot-Group-Project/MainCode/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
-/home/gabriele/RIOT/core/include/clist.h:
+/home/rishirajsalam/RIOT/core/include/clist.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 
-/home/gabriele/RIOT/core/include/list.h:
+/home/rishirajsalam/RIOT/core/include/list.h:

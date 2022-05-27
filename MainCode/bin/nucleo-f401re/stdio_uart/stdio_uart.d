@@ -1,6 +1,6 @@
-/home/gabriele/Desktop/Iot-Group-Project/sensors_test/bin/nucleo-f401re/stdio_uart/stdio_uart.o: \
- /home/gabriele/RIOT/sys/stdio_uart/stdio_uart.c \
- /home/gabriele/Desktop/Iot-Group-Project/sensors_test/bin/nucleo-f401re/riotbuild/riotbuild.h \
+/home/rishirajsalam/projects/Iot-Group-Project/MainCode/bin/nucleo-f401re/stdio_uart/stdio_uart.o: \
+ /home/rishirajsalam/RIOT/sys/stdio_uart/stdio_uart.c \
+ /home/rishirajsalam/projects/Iot-Group-Project/MainCode/bin/nucleo-f401re/riotbuild/riotbuild.h \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -9,96 +9,83 @@
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/machine/_default_types.h \
- /usr/include/newlib/sys/lock.h /home/gabriele/RIOT/core/include/assert.h \
- /home/gabriele/RIOT/sys/include/stdio_uart.h \
- /home/gabriele/RIOT/boards/common/nucleo64/include/board.h \
- /home/gabriele/RIOT/boards/common/nucleo/include/board_nucleo.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/cpu.h \
+ /usr/include/newlib/sys/lock.h \
+ /home/rishirajsalam/RIOT/core/include/assert.h \
+ /home/rishirajsalam/RIOT/core/include/panic.h \
+ /home/rishirajsalam/RIOT/core/include/kernel_defines.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+ /home/rishirajsalam/RIOT/sys/include/stdio_uart.h \
+ /home/rishirajsalam/RIOT/boards/common/nucleo64/include/board.h \
+ /home/rishirajsalam/RIOT/boards/common/nucleo/include/board_nucleo.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/cpu.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/sys/cdefs.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
  /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
  /usr/include/newlib/sys/_pthreadtypes.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/gabriele/RIOT/core/include/irq.h \
+ /home/rishirajsalam/RIOT/core/include/irq.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
- /home/gabriele/RIOT/cpu/stm32/include/cpu_conf.h \
- /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
- /home/gabriele/RIOT/build/stm32/cmsis/f4/Include/stm32f4xx.h \
- /home/gabriele/RIOT/build/stm32/cmsis/f4/Include/stm32f401xe.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/vendor/core_cm4.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/vendor/mpu_armv7.h \
- /home/gabriele/RIOT/build/stm32/cmsis/f4/Include/system_stm32f4xx.h \
- /home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/irq_arch.h \
- /home/gabriele/RIOT/core/include/sched.h /usr/include/newlib/inttypes.h \
- /usr/include/newlib/sys/_intsup.h \
- /home/gabriele/RIOT/core/include/kernel_defines.h \
- /home/gabriele/RIOT/core/include/native_sched.h \
- /home/gabriele/RIOT/core/include/clist.h \
- /home/gabriele/RIOT/core/include/list.h \
- /home/gabriele/RIOT/core/include/thread.h \
- /home/gabriele/RIOT/core/include/cib.h \
- /home/gabriele/RIOT/core/include/assert.h \
- /home/gabriele/RIOT/core/include/msg.h \
- /home/gabriele/RIOT/core/include/sched.h \
- /home/gabriele/RIOT/core/include/thread_config.h \
- /home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h \
- /home/gabriele/RIOT/boards/nucleo-f401re/include/periph_conf.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph_cpu.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/cpu_conf.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/vendor/cmsis/f4/Include/stm32f4xx.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/vendor/cmsis/f4/Include/stm32f401xe.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/core_cm4.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/mpu_armv7.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/vendor/cmsis/f4/Include/system_stm32f4xx.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/irqs/f4/irqs.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/irq_arch.h \
+ /home/rishirajsalam/RIOT/core/include/sched.h \
+ /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
+ /home/rishirajsalam/RIOT/core/include/native_sched.h \
+ /home/rishirajsalam/RIOT/core/include/clist.h \
+ /home/rishirajsalam/RIOT/core/include/list.h \
+ /home/rishirajsalam/RIOT/core/include/thread.h \
+ /home/rishirajsalam/RIOT/core/include/cib.h \
+ /home/rishirajsalam/RIOT/core/include/assert.h \
+ /home/rishirajsalam/RIOT/core/include/msg.h \
+ /home/rishirajsalam/RIOT/core/include/sched.h \
+ /home/rishirajsalam/RIOT/core/include/thread_config.h \
+ /home/rishirajsalam/RIOT/core/include/thread_flags.h \
+ /home/rishirajsalam/RIOT/cpu/cortexm_common/include/thread_arch.h \
+ /home/rishirajsalam/RIOT/boards/nucleo-f401re/include/periph_conf.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/periph_cpu.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
- /home/gabriele/RIOT/core/include/macros/units.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/f4/periph_cpu.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_backup_ram.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_common.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_dma.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_eth.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_gpio.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_gpio.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_i2c.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_ltdc.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_pm.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_pwm.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_timer.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_qdec.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_spi.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_dma.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_timer.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_uart.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_usbdev.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_vbat.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_wdt.h \
- /home/gabriele/RIOT/sys/include/timex.h \
- /home/gabriele/RIOT/sys/include/time_units.h \
- /home/gabriele/RIOT/cpu/stm32/include/periph/cpu_common.h \
- /home/gabriele/RIOT/cpu/stm32/include/clk/clk_conf.h \
- /home/gabriele/RIOT/core/include/kernel_defines.h \
- /home/gabriele/RIOT/cpu/stm32/include/clk/cfg_clock_common_fx_gx_mp1.h \
- /home/gabriele/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default.h \
- /home/gabriele/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default_84.h \
- /home/gabriele/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h \
- /home/gabriele/RIOT/boards/common/stm32/include/cfg_timer_tim5.h \
- /home/gabriele/RIOT/boards/common/nucleo64/include/arduino_pinmap.h \
- /home/gabriele/RIOT/drivers/include/periph/gpio.h \
- /home/gabriele/RIOT/drivers/include/periph/adc.h \
- /home/gabriele/RIOT/drivers/include/motor_driver.h \
- /home/gabriele/RIOT/drivers/include/periph/pwm.h \
- /home/gabriele/RIOT/drivers/include/periph/gpio.h \
- /home/gabriele/RIOT/sys/include/stdio_base.h \
+ /home/rishirajsalam/RIOT/core/include/macros/units.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/periph/f4/periph_cpu.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/clk/clk_conf.h \
+ /home/rishirajsalam/RIOT/core/include/kernel_defines.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/clk/cfg_clock_common_fx_gx_mp1.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default.h \
+ /home/rishirajsalam/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default_84.h \
+ /home/rishirajsalam/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h \
+ /home/rishirajsalam/RIOT/boards/common/stm32/include/cfg_timer_tim5.h \
+ /home/rishirajsalam/RIOT/boards/common/nucleo64/include/arduino_pinmap.h \
+ /home/rishirajsalam/RIOT/drivers/include/periph/gpio.h \
+ /home/rishirajsalam/RIOT/drivers/include/periph/adc.h \
+ /home/rishirajsalam/RIOT/drivers/include/motor_driver.h \
+ /home/rishirajsalam/RIOT/drivers/include/periph/pwm.h \
+ /home/rishirajsalam/RIOT/drivers/include/periph/gpio.h \
+ /home/rishirajsalam/RIOT/sys/include/stdio_base.h \
  /usr/include/newlib/unistd.h /usr/include/newlib/sys/unistd.h \
- /home/gabriele/RIOT/drivers/include/periph/uart.h \
- /home/gabriele/RIOT/sys/include/isrpipe.h \
- /home/gabriele/RIOT/core/include/mutex.h \
- /home/gabriele/RIOT/core/include/thread.h \
- /home/gabriele/RIOT/core/include/irq.h \
- /home/gabriele/RIOT/sys/include/tsrb.h \
- /home/gabriele/RIOT/core/include/debug.h
+ /home/rishirajsalam/RIOT/drivers/include/periph/uart.h \
+ /home/rishirajsalam/RIOT/sys/include/isrpipe.h \
+ /home/rishirajsalam/RIOT/core/include/mutex.h \
+ /home/rishirajsalam/RIOT/core/include/thread.h \
+ /home/rishirajsalam/RIOT/core/include/irq.h \
+ /home/rishirajsalam/RIOT/sys/include/tsrb.h \
+ /home/rishirajsalam/RIOT/drivers/include/ethos.h \
+ /home/rishirajsalam/RIOT/drivers/include/periph/uart.h \
+ /home/rishirajsalam/RIOT/drivers/include/net/netdev.h \
+ /home/rishirajsalam/RIOT/sys/include/iolist.h \
+ /home/rishirajsalam/RIOT/sys/include/net/netopt.h \
+ /home/rishirajsalam/RIOT/sys/include/tsrb.h \
+ /home/rishirajsalam/RIOT/core/include/debug.h
 
-/home/gabriele/Desktop/Iot-Group-Project/sensors_test/bin/nucleo-f401re/riotbuild/riotbuild.h:
+/home/rishirajsalam/projects/Iot-Group-Project/MainCode/bin/nucleo-f401re/riotbuild/riotbuild.h:
 
 /usr/include/newlib/errno.h:
 
@@ -128,15 +115,21 @@
 
 /usr/include/newlib/sys/lock.h:
 
-/home/gabriele/RIOT/core/include/assert.h:
+/home/rishirajsalam/RIOT/core/include/assert.h:
 
-/home/gabriele/RIOT/sys/include/stdio_uart.h:
+/home/rishirajsalam/RIOT/core/include/panic.h:
 
-/home/gabriele/RIOT/boards/common/nucleo64/include/board.h:
+/home/rishirajsalam/RIOT/core/include/kernel_defines.h:
 
-/home/gabriele/RIOT/boards/common/nucleo/include/board_nucleo.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/cpu.h:
+/home/rishirajsalam/RIOT/sys/include/stdio_uart.h:
+
+/home/rishirajsalam/RIOT/boards/common/nucleo64/include/board.h:
+
+/home/rishirajsalam/RIOT/boards/common/nucleo/include/board_nucleo.h:
+
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/cpu.h:
 
 /usr/include/newlib/stdio.h:
 
@@ -156,160 +149,126 @@
 
 /usr/include/newlib/sys/stdio.h:
 
-/home/gabriele/RIOT/core/include/irq.h:
+/home/rishirajsalam/RIOT/core/include/irq.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/cpu_conf.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/cpu_conf.h:
 
-/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/cpu_conf_common.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/cpu_conf_common.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/vendor/cmsis/f4/Include/stm32f4xx.h:
 
-/home/gabriele/RIOT/build/stm32/cmsis/f4/Include/stm32f4xx.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/vendor/cmsis/f4/Include/stm32f401xe.h:
 
-/home/gabriele/RIOT/build/stm32/cmsis/f4/Include/stm32f401xe.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/core_cm4.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/vendor/core_cm4.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/vendor/mpu_armv7.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/vendor/mpu_armv7.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/vendor/cmsis/f4/Include/system_stm32f4xx.h:
 
-/home/gabriele/RIOT/build/stm32/cmsis/f4/Include/system_stm32f4xx.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/irqs/f4/irqs.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/irqs/f4/irqs.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/irq_arch.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/irq_arch.h:
-
-/home/gabriele/RIOT/core/include/sched.h:
+/home/rishirajsalam/RIOT/core/include/sched.h:
 
 /usr/include/newlib/inttypes.h:
 
 /usr/include/newlib/sys/_intsup.h:
 
-/home/gabriele/RIOT/core/include/kernel_defines.h:
+/home/rishirajsalam/RIOT/core/include/native_sched.h:
 
-/home/gabriele/RIOT/core/include/native_sched.h:
+/home/rishirajsalam/RIOT/core/include/clist.h:
 
-/home/gabriele/RIOT/core/include/clist.h:
+/home/rishirajsalam/RIOT/core/include/list.h:
 
-/home/gabriele/RIOT/core/include/list.h:
+/home/rishirajsalam/RIOT/core/include/thread.h:
 
-/home/gabriele/RIOT/core/include/thread.h:
+/home/rishirajsalam/RIOT/core/include/cib.h:
 
-/home/gabriele/RIOT/core/include/cib.h:
+/home/rishirajsalam/RIOT/core/include/assert.h:
 
-/home/gabriele/RIOT/core/include/assert.h:
+/home/rishirajsalam/RIOT/core/include/msg.h:
 
-/home/gabriele/RIOT/core/include/msg.h:
+/home/rishirajsalam/RIOT/core/include/sched.h:
 
-/home/gabriele/RIOT/core/include/sched.h:
+/home/rishirajsalam/RIOT/core/include/thread_config.h:
 
-/home/gabriele/RIOT/core/include/thread_config.h:
+/home/rishirajsalam/RIOT/core/include/thread_flags.h:
 
-/home/gabriele/RIOT/cpu/cortexm_common/include/thread_arch.h:
+/home/rishirajsalam/RIOT/cpu/cortexm_common/include/thread_arch.h:
 
-/home/gabriele/RIOT/boards/nucleo-f401re/include/periph_conf.h:
+/home/rishirajsalam/RIOT/boards/nucleo-f401re/include/periph_conf.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph_cpu.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/periph_cpu.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h:
 
-/home/gabriele/RIOT/core/include/macros/units.h:
+/home/rishirajsalam/RIOT/core/include/macros/units.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/f4/periph_cpu.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/periph/f4/periph_cpu.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_backup_ram.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/clk/clk_conf.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_common.h:
+/home/rishirajsalam/RIOT/core/include/kernel_defines.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_dma.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/clk/cfg_clock_common_fx_gx_mp1.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_eth.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_gpio.h:
+/home/rishirajsalam/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default_84.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_gpio.h:
+/home/rishirajsalam/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_i2c.h:
+/home/rishirajsalam/RIOT/boards/common/stm32/include/cfg_timer_tim5.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_ltdc.h:
+/home/rishirajsalam/RIOT/boards/common/nucleo64/include/arduino_pinmap.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_pm.h:
+/home/rishirajsalam/RIOT/drivers/include/periph/gpio.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_pwm.h:
+/home/rishirajsalam/RIOT/drivers/include/periph/adc.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_timer.h:
+/home/rishirajsalam/RIOT/drivers/include/motor_driver.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_qdec.h:
+/home/rishirajsalam/RIOT/drivers/include/periph/pwm.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_spi.h:
+/home/rishirajsalam/RIOT/drivers/include/periph/gpio.h:
 
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_dma.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_timer.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_uart.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_usbdev.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_vbat.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_wdt.h:
-
-/home/gabriele/RIOT/sys/include/timex.h:
-
-/home/gabriele/RIOT/sys/include/time_units.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/periph/cpu_common.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/clk/clk_conf.h:
-
-/home/gabriele/RIOT/core/include/kernel_defines.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/clk/cfg_clock_common_fx_gx_mp1.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default.h:
-
-/home/gabriele/RIOT/cpu/stm32/include/clk/f2f4f7/cfg_clock_default_84.h:
-
-/home/gabriele/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h:
-
-/home/gabriele/RIOT/boards/common/stm32/include/cfg_timer_tim5.h:
-
-/home/gabriele/RIOT/boards/common/nucleo64/include/arduino_pinmap.h:
-
-/home/gabriele/RIOT/drivers/include/periph/gpio.h:
-
-/home/gabriele/RIOT/drivers/include/periph/adc.h:
-
-/home/gabriele/RIOT/drivers/include/motor_driver.h:
-
-/home/gabriele/RIOT/drivers/include/periph/pwm.h:
-
-/home/gabriele/RIOT/drivers/include/periph/gpio.h:
-
-/home/gabriele/RIOT/sys/include/stdio_base.h:
+/home/rishirajsalam/RIOT/sys/include/stdio_base.h:
 
 /usr/include/newlib/unistd.h:
 
 /usr/include/newlib/sys/unistd.h:
 
-/home/gabriele/RIOT/drivers/include/periph/uart.h:
+/home/rishirajsalam/RIOT/drivers/include/periph/uart.h:
 
-/home/gabriele/RIOT/sys/include/isrpipe.h:
+/home/rishirajsalam/RIOT/sys/include/isrpipe.h:
 
-/home/gabriele/RIOT/core/include/mutex.h:
+/home/rishirajsalam/RIOT/core/include/mutex.h:
 
-/home/gabriele/RIOT/core/include/thread.h:
+/home/rishirajsalam/RIOT/core/include/thread.h:
 
-/home/gabriele/RIOT/core/include/irq.h:
+/home/rishirajsalam/RIOT/core/include/irq.h:
 
-/home/gabriele/RIOT/sys/include/tsrb.h:
+/home/rishirajsalam/RIOT/sys/include/tsrb.h:
 
-/home/gabriele/RIOT/core/include/debug.h:
+/home/rishirajsalam/RIOT/drivers/include/ethos.h:
+
+/home/rishirajsalam/RIOT/drivers/include/periph/uart.h:
+
+/home/rishirajsalam/RIOT/drivers/include/net/netdev.h:
+
+/home/rishirajsalam/RIOT/sys/include/iolist.h:
+
+/home/rishirajsalam/RIOT/sys/include/net/netopt.h:
+
+/home/rishirajsalam/RIOT/sys/include/tsrb.h:
+
+/home/rishirajsalam/RIOT/core/include/debug.h:
