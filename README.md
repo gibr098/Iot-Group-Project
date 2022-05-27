@@ -12,3 +12,6 @@ R.O.M. is an interactive map of a smart building that allows people frequently v
 - [Technology](Technology.md)
 - [Evaluation](Evaluation.md)
 
+## Demonstration Link
+- [ROM Demonstration](https://www.youtube.com/watch?v=39OIcxUk4Wo)
+
